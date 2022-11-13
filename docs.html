@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta name="keywords" content="DS Creator, DS, Creator, ds, ds game maker, DS Game Maker, make ds games, ds games, ds game, make your own ds game">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/png" sizes="2500x2500" href="./public/imgs/DSC_Logo.png">
+    <!-- Change the description wrt project -->
+    <meta
+      name="description"
+      content="A game engine for Windows, Linux, and macOS that allows anyone to make DS games with ease!"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- You can add your own fonts from fonts.google.com -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Default Script tags -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./public/js/index.js"></script>
+
+    <!-- Replace the title name -->
+    <title>DS Creator Docs : Docs</title>
+  </head>
+  <body style="font-family: 'Poppins', sans-serif">
+    <!-- Header start here -->
+    <header class="w-full p-3 border flex" style="background-color:lightgray;">
+      <nav
+        class="w-full flex flex-col lg:flex-row md:flex-row sm:flex-row items-start lg:item-center md:item-center sm:item-center lg:justify-between md:justify-between sm:justify-between justify-start"
+      >
+        <ul>
+          <!-- You can change your logo name -->
+          <li class="font-mono text-xl">DS Creator</li>
+        </ul>
+        <ul id="header-nav" class="mr-6 sm:flex md:flex lg:flex hidden">
+          <li
+            class="mr-5 mb-3 mt-5 sm:mb-0 sm:mt-0 md:mb-0 md:mt-0 lg:mb-0 lg:mt-0"
+          >
+            <a href="./index.html">Home</a>
+          </li>
+          <div>
+            <ul class="flex">
+              
+			        <li class="mr-5">
+                <a href="https://discord.com/invite/CqrXmqxAf8"><img src="./public/svgs/discord.svg" alt="Discord Link" /></a>
+              </li>
+              <li class="mr-5">
+                <a href="https://github.com/BowersIndustry/ds-creator-docs"><img src="./public/svgs/github.svg" alt="GitHub Link" /></a>
+              </li>
+              <li class="mr-0">
+                <a href="https://www.youtube.com/channel/UCpPIw9q3QlrpsNsurh2Tzjw"><img src="./public/svgs/youtube.svg" alt="YouTube Link" /></a>
+              </li>
+            </ul>
+          </div>
+        </ul>
+      </nav>
+
+      <div class="sm:hidden flex" onclick="OnclickOpenMenu()" id="open-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+      <div class="hidden" onclick="OnclickCloseMenu()" id="close-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+      </div>
+    </header>
+    <!-- Header ends here -->
+
+    <div class="flex flex-col md:flex-row lg:flex-row">
+      <!-- Side menu starts here -->
+      <nav
+        class="flex ml-10 mt-7 md:fixed lg:fixed"
+        data-spy="affix"
+        data-offset-top="300"
+        data-offset-bottom="200"
+        role="navigation"
+      >
+        <ul class="nav">
+          <li class="font-medium"><a href="#Get_Start">Getting Started</a></li>
+          <li class="font-medium">
+            <a href="#Install">Installation</a>
+            <ul class="nav">
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#Install_Win">Windows</a>
+              </li>
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#Install_Mac">macOS</a>
+              </li>
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#Install_LinDeb">Debian Linux</a>
+              </li>
+			  <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#Install_LinHat">Red Hat Linux</a>
+              </li>
+			  <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#Install_LinRas">Raspberry Pi OS</a>
+              </li>
+            </ul>
+          </li>
+          <li class="font-medium">
+            <a href="#Assets">Assets</a>
+            <ul class="nav">
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#bcgrn">Backgrounds</a>
+              </li>
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#spr">Sprites</a>
+              </li>
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#msc">Music</a>
+              </li>
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#sfx">Sound Effects</a>
+              </li>
+            </ul>
+          </li>
+		  <li class="font-medium">
+            <a href="#ActScn">Actors & Scenes</a>
+            <ul class="nav">
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#act">Actors</a>
+              </li>
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#scn">Scenes</a>
+              </li>
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#evts">Events</a>
+              </li>
+            </ul>
+          </li>
+		  <li class="font-medium">
+            <a href="#DSCEL">DSCEngine</a>
+            <ul class="nav">
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#DSCELA">About</a>
+              </li>
+              <li class="text-[#111] pl-[20px] font-[400] border-l-[2px]">
+                <a href="#DSCELD">Docs</a>
+              </li>
+            </ul>
+          </li>
+          <li class="font-medium"><a href="#bugs">Issues</a></li>
+        </ul>
+      </nav>
+      <!-- Side Menu ends here -->
+
+      <div class="pl-5 md:pl-[250px] lg:pl-[250px]">
+        <section id="Get_Start">
+          <div class="h-full mt-10">
+            <p class="font-normal text-2xl">Getting Started</p>
+            <p class="leading-0 w-3/4">
+              DS Creator is a game engine that allows users to create their very own DS games! DS Creator is easy to use.
+            </p>
+          </div>
+        </section>
+        
+        <section id="Install">
+          <div class="h-full mt-5">
+            <p class="font-normal text-2xl">Installation</p>
+          </div>
+          <section id="Install_Win" class="border-l-[2px]">
+            <div class="h-full mt-3 ml-5">
+              <p class="font-normal text-xl">Windows</p>
+              <p>Start by downloading and extracting DS Creator for Windows.</p>
+              <a href="https://bowersindustry.itch.io/ds-creator" style="color:blue;" target="_blank">https://bowersindustry.itch.io/ds-creator</a>
+			        <br><br>
+			        <p>Next, go to the devkitPro GitHub releases and download the "devkitProUpdater-3.0.3.exe" from under "devkitPro Updater v3.0.3".</p>
+			        <a href="https://github.com/devkitPro/installer/releases" style="color:blue;" target="_blank">https://github.com/devkitPro/installer/releases</a>
+			        <br><br>
+			        <p>Once that is done downloading, run it.<br>Click on "Next".</p>
+			        <img src="./public/imgs/Win_devkitPro_1.png"/>
+			        <br><br>
+			        <p>Make sure the "Remove downloaded files" option is checked. Then click "Next".</p>
+			        <img src="./public/imgs/Win_devkitPro_2.png"/>
+			        <br><br>
+			        <p>Make sure only "NDS Development" is checked. Then click "Next".</p>
+			        <img src="./public/imgs/Win_devkitPro_3.png"/>
+			        <br><br>
+			        <p>It will then start installing.<br>Once it is done, you will see this,</p>
+			        <img src="./public/imgs/Win_devkitPro_4.png"/>
+			        <p>Click "Next". You are finished installing libnds!</p>
+			        <br><br>
+			        <p>It will ask you if you want to donate. (If you donate, it will not support me. It supports devkitPro, but I highly recommend donating!) Click "Finish" and it will close.</p>
+			        <img src="./public/imgs/Win_devkitPro_5.png"/>
+			        <br><br>
+			        <p>Next, open the folder with the extracted DS Creator in it. Then, open "DS Creator.exe" and have fun making your DS game!</p>
+			      </div>
+          </section>
+          <section id="Install_Mac" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">macOS</p>
+              <p class="text-sm pb-4">Coming Soon</p>
+            </div>
+          </section>
+          <section id="Install_LinDeb" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">Debian Linux</p>
+			        <p>Start by downloading and installing DS Creator for Debian.</p>
+			        <a href="https://bowersindustry.itch.io/ds-creator" style="color:blue;" target="_blank">https://bowersindustry.itch.io/ds-creator</a>
+			        <br><br>
+			        <p>Next, open up the terminal. Then, run these commands. Put in your password if prompted.</p>
+			        <script src="https://gist.github.com/BowersIndustry/dff95aa1d62016aa6ae0e4e2e785b029.js"></script>
+              <br><br>
+			        <p>Then download either the "devkitpro-pacman.amd64.deb" or "devkitpro-pacman.arm64.deb" based on your Linux distro.</p>
+			        <a href="https://github.com/BowersIndustry/devkitPro-for-linux/releases/tag/not_Rpi" style="color:blue;" target="_blank">https://github.com/BowersIndustry/devkitPro-for-linux/releases/tag/not_Rpi</a>
+              <br><br>
+			        <p>Next, run this command. Be sure to replace "path_to_downloaded_.deb_file" is replaced with the path to the real .deb file you downloaded.</p>
+			        <script src="https://gist.github.com/BowersIndustry/250a5a8686069ec97625edcca0b43b9a.js"></script>
+			        <br><br>
+			        <p>After that, run this command,</p>
+			        <script src="https://gist.github.com/BowersIndustry/eaa3f87f02f07ebb04868ddb6b94c877.js"></script>
+			        <br><br>
+			        <p>Then, run this last command. Be sure to type "Y" anytime it prompts you to.</p>
+			        <script src="https://gist.github.com/BowersIndustry/2df4bcab9972d01215babbdb9e6b9af6.js"></script>
+			        <br><br>
+			        <p>Once all that is done, reboot the system.<br>Then, open DS Creator and have fun making your DS game!</p>
+            </div>
+          </section>
+		  <section id="Install_LinHat" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">Red Hat Linux</p>
+              <p>Coming Soon</p>
+            </div>
+          </section>
+		  <section id="Install_LinRas" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">Raspberry Pi OS</p>
+              <p>Start by downloading and installing DS Creator for Raspberry Pi.</p>
+			        <a href="https://bowersindustry.itch.io/ds-creator" style="color:blue;" target="_blank">https://bowersindustry.itch.io/ds-creator</a>
+			        <br><br>
+			        <p>Next, download the "devkitPro_r50-raspberry_pi-linux.deb" file from this link.</p>
+			        <a href="https://github.com/BowersIndustry/devkitPro-for-linux/releases/tag/RPi" style="color:blue;" target="_blank">https://github.com/BowersIndustry/devkitPro-for-linux/releases/tag/RPi</a>
+			        <br><br>
+			        <p>Then, run this command. Replace "path_to_downloaded_file" with the real path to the downloaded file.</p>
+			        <script src="https://gist.github.com/BowersIndustry/7bb5793c104719b25b6e3035b0ac1832.js"></script>
+            </div>
+          </section>
+        </section>
+        
+        <section id="Assets">
+          <div class="h-full mt-5">
+            <p class="font-normal text-2xl">Assets</p>
+            <p class="text-sm pt-2 pb-4">Assets are all the art and audio you use in your game.</p>
+          </div>
+		  
+          <section id="bcgrn" class="border-l-[2px]">
+            <div class="h-full mt-3 ml-5">
+              <p class="font-normal text-xl">Backgrounds</p>
+              <p>Backgrounds can only have a max of 256 colors and no more. The smallest a background can be is 256px horizontally and 192px vertically. Backgrounds sizes must be a multiple of 8.</p>
+            </div>
+          </section>
+			
+          <section id="spr" class="border-l-[2px]">
+            <div class="h-full mt-3 ml-5">
+              <p class="font-normal text-xl">Sprites</p>
+              <p>Sprites can only have a max of 256 colors (including the transparent color). The default transparency color is <a style="color:#FF00FF;">#FF00FF</a>. Sprites can only be 8x8, 16x16, 32x32, 64x64, 16x8, 32x8, 32x16, 64x32, 8x16, 8x32, 16x32, or 32x64 pixels per frame.</p>
+            </div>
+          </section>
+			
+          <section id="msc" class="border-l-[2px]">
+            <div class="h-full mt-3 ml-5">
+              <p class="font-normal text-xl">Music</p>
+              <p>Music (songs) are in the ".mod" format. Music goes in the "audio" folder of your project. Here is a list of applications you can use to make music,</p>
+			  <p>• <a href="https://openmpt.org/" style="color:blue;" target="_blank">OpenMPT</a><br>• <a href="https://milkytracker.org/" style="color:blue;" target="_blank">Milky Tracker</a><br>• <a href="https://www.stef.be/bassoontracker/" style="color:blue;" target="_blank">BassoonTracker</a></p>
+            </div>
+          </section>
+          
+          <section id="sfx" class="border-l-[2px]">
+            <div class="h-full mt-3 ml-5">
+              <p class="font-normal text-xl">Sound Effects</p>
+              <p>Sound effects must be in the ".wav" format. All sound effects go in the "audio" folder of your project. Any audio program that can export to ".wav" will work.</p>
+          </section>
+        </section>
+		
+		<section id="ActScn">
+          <div class="h-full mt-5">
+            <p class="font-normal text-2xl">Actors & Scenes</p>
+          </div>
+          <section id="act" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">Actors</p>
+              <p>Actors are basically code that has a sprite. Actors have "on init" code that runs when that scene is first loaded, and "on update" code which runs every frame.<br>Each scene can only have 127 actors (not including the player).</p>
+            </div>
+          </section>
+		  <section id="scn" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">Scenes</p>
+              <p>Scenes have "on init" code just like actors.</p>
+            </div>
+          </section>
+		  <section id="evts" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">Events</p>
+              <p>Coming Soon</p>
+            </div>
+          </section>
+        </section>
+		
+		<section id="DSCEL">
+          <div class="h-full mt-5">
+            <p class="font-normal text-2xl">DSCEngine</p>
+          </div>
+          <section id="DSCELA" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">About</p>
+              <p>Coming soon.</p>
+            </div>
+          </section>
+		  <section id="DSCELD" class="border-l-[2px]">
+            <div class="h-full mt-5 ml-5">
+              <p class="font-normal text-xl">Docs</p>
+              <p>Check out the docs <a href="./docs/dsc-engine/index.html" style="color: blue;">here</a>.</p>
+            </div>
+          </section>
+        </section>
+
+        <section id="bugs">
+          <div class="h-full mt-5">
+            <p class="font-normal text-2xl">Issues</p>
+            <p class="text-sm pt-5 pb-4">
+              If you find either mistakes in spelling or false info, please leave an issue on the 
+              <a
+                href="https://github.com/BowersIndustry/ds-creator-docs/issues/new"
+                target="_blank"
+                style="color:blue;"
+                >GitHub repo.</a
+              >
+            </p>
+          </div>
+        </section>
+        <!-- Link6 ends -->
+      </div>
+    </div>
+    <!-- Footer starts here -->
+    <footer>
+      <div class="bg-black h-38 py-1 px-1 mt-5">
+        <div
+          tabindex="0"
+          aria-label="footer"
+          class="focus:outline-none mx-auto container flex flex-col items-center justify-center"
+        >
+          <div class="text-black flex flex-col md:items-center f-f-l pt-0">
+            <div class="my-6 text-base text-color f-f-l">
+              <ul class="md:flex items-center">
+                <li class="md:mr-6 cursor-pointer pt-4 lg:py-0">
+                  <a
+                    href="./index.html"
+                    class="text-white focus:outline-none focus:underline hover:text-gray-200"
+                    >Home
+                  </a>
+                </li>
+                <li class="md:mr-6 cursor-pointer pt-4 lg:py-0">
+                  <a
+                    href="./docs.html"
+                    class="text-white focus:outline-none focus:underline hover:text-gray-200"
+                    >Docs
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="text-sm text-color mb-10 f-f-l">
+              <p tabindex="0" class="text-white focus:outline-none">
+                &copy; 2022 Kenyon Bowers. All rights reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer ends here -->
+  </body>
+</html>
