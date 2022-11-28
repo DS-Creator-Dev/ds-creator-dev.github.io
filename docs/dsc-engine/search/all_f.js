@@ -1,13 +1,15 @@
 var searchData=
 [
-  ['readonlydata_0',['ReadOnlyData',['../class_d_s_c_1_1_read_only_data.html',1,'DSC::ReadOnlyData'],['../class_d_s_c_1_1_read_only_data.html#ac091f868669ff29e0d0c821e8dd8d0fc',1,'DSC::ReadOnlyData::ReadOnlyData()']]],
-  ['release_1',['release',['../class_d_s_c_1_1_allocator.html#a8720578227bfc11f961b1494b314a9e2',1,'DSC::Allocator']]],
-  ['remove_2',['remove',['../class_d_s_c_1_1_vector.html#a60f02e66a88fa9b3e67c8d571ad1a6da',1,'DSC::Vector']]],
-  ['remove_5fat_3',['remove_at',['../class_d_s_c_1_1_vector.html#ac24ed9e07be70cc643dcbc9d3102daef',1,'DSC::Vector']]],
-  ['remove_5fkey_4',['remove_key',['../class_d_s_c_1_1_hash_map.html#a53566cbb03879b44333ab2da27478cdf',1,'DSC::HashMap']]],
-  ['reserve_5',['reserve',['../class_d_s_c_1_1_allocator.html#a3f93be45bc2cadbabeeb5cc3474e669f',1,'DSC::Allocator']]],
-  ['reserve1_6',['reserve1',['../class_d_s_c_1_1_palette_manager.html#afb1dbfc8aa80e2a980c7d731755140a7',1,'DSC::PaletteManager']]],
-  ['reserve16_7',['reserve16',['../class_d_s_c_1_1_palette_manager.html#ad299bfb8f73829807c5536afed446b5e',1,'DSC::PaletteManager']]],
-  ['reset_8',['reset',['../class_d_s_c_1_1_vector.html#a40f4ca7b4d3427be65fce659a1424d7f',1,'DSC::Vector']]],
-  ['resize_9',['resize',['../class_d_s_c_1_1_vector.html#a826d65f201a92ada0a6952fdceae652c',1,'DSC::Vector']]]
+  ['palette_5fmanager_2ehpp_0',['palette_manager.hpp',['../palette__manager_8hpp.html',1,'']]],
+  ['paletteallocationresult_1',['PaletteAllocationResult',['../struct_d_s_c_1_1_palette_allocation_result.html',1,'DSC']]],
+  ['paletteloader_2',['PaletteLoader',['../class_d_s_c_1_1_palette_loader.html',1,'DSC']]],
+  ['palettemanager_3',['PaletteManager',['../class_d_s_c_1_1_palette_manager.html',1,'DSC::PaletteManager'],['../class_d_s_c_1_1_palette_manager.html#ab647ed1df2f69d35ecb017feeefe8760',1,'DSC::PaletteManager::PaletteManager()']]],
+  ['point_4',['Point',['../struct_d_s_c_1_1_point.html',1,'DSC']]],
+  ['point_2ehpp_5',['point.hpp',['../point_8hpp.html',1,'']]],
+  ['point_3c_20char_20_3e_6',['Point&lt; char &gt;',['../struct_d_s_c_1_1_point.html',1,'DSC']]],
+  ['point_3c_20dsc_3a_3asf24_20_3e_7',['Point&lt; DSC::sf24 &gt;',['../struct_d_s_c_1_1_point.html',1,'DSC']]],
+  ['pop_8',['pop',['../class_d_s_c_1_1_stack.html#add1786b45e7a550e9f43056be8ddc02d',1,'DSC::Stack']]],
+  ['profile_9',['Profile',['../class_d_s_c_1_1_profile.html',1,'DSC']]],
+  ['push_10',['push',['../class_d_s_c_1_1_stack.html#a433c1a9636245f98fb42642c1d43ec34',1,'DSC::Stack']]],
+  ['push_5fback_11',['push_back',['../class_d_s_c_1_1_vector.html#a562b4902f224803e6ba199264c858210',1,'DSC::Vector']]]
 ];

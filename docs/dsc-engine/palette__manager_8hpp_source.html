@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DSC Engine: D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/palette_manager.hpp Source File</title>
+<title>DSC Engine: include/DSCEngine/video/palette_manager.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="dsc-logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">DSC Engine
    </div>
@@ -69,7 +70,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_394ff8aee7398e78ab38baed8ef80807.html">Users</a></li><li class="navelem"><a class="el" href="dir_4c01488eab89300ea37a845a86063dbe.html">NotImpLife</a></li><li class="navelem"><a class="el" href="dir_a93fcd782644ed1579df88e06d9de278.html">Projects</a></li><li class="navelem"><a class="el" href="dir_a089ef01e5a80cba15d5446787c04345.html">DS-Creator</a></li><li class="navelem"><a class="el" href="dir_b26f814e773c8f07ec4d3247c5d2b9e2.html">engine</a></li><li class="navelem"><a class="el" href="dir_8f882f87747ddd3076a7c5f50d49de64.html">include</a></li><li class="navelem"><a class="el" href="dir_59cea444c021c16e9728dba13b9bbb8f.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_939255d78540b7daed46f7f7d4c444c8.html">video</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_fa9b8640b3ba23084e3edfd8b1f1119e.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_fff527a2c716effb0e73d77933f84a0f.html">video</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -132,10 +133,19 @@ $(function() {
 <div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="struct_d_s_c_1_1_palette_allocation_result.html#a32a6961f6a7678a0352cc3f7f6466319">  117</a></span>        <span class="keywordtype">bool</span> <a class="code hl_variable" href="struct_d_s_c_1_1_palette_allocation_result.html#a32a6961f6a7678a0352cc3f7f6466319">succeeded</a>;     </div>
 <div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        </div>
 <div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>        <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">~PaletteAllocationResult</a>(); <span class="comment">// this is in order not to worry about the indices deallocation</span></div>
-<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>    };</div>
-<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>}</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span>        </div>
+<div class="line"><a id="l00121" name="l00121"></a><span class="lineno">  121</span>        <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>(<span class="keywordtype">short</span>* <a class="code hl_variable" href="struct_d_s_c_1_1_palette_allocation_result.html#a82ef296707f7c9b44123fea275bf97ae">indices</a> = <span class="keyword">nullptr</span>, <span class="keywordtype">int</span> <a class="code hl_variable" href="struct_d_s_c_1_1_palette_allocation_result.html#ac328c423ec76c29d1a315c073bdbf621">length</a> = 0, <span class="keywordtype">char</span> <a class="code hl_variable" href="struct_d_s_c_1_1_palette_allocation_result.html#a3ee6c84624f8884190e28d2e426cbf6f">color_depth</a> = 0, <span class="keywordtype">bool</span> <a class="code hl_variable" href="struct_d_s_c_1_1_palette_allocation_result.html#a32a6961f6a7678a0352cc3f7f6466319">succeeded</a> = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno">  122</span>        <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>(<span class="keyword">const</span> <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>&amp;);</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>(<a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>&amp;&amp;);</div>
+<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        </div>
+<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>&amp; operator = (<span class="keyword">const</span> <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>&amp; other);</div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>&amp; operator = (<a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>&amp;&amp; other);</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        <span class="keywordtype">bool</span> operator == (<span class="keyword">const</span> <a class="code hl_struct" href="struct_d_s_c_1_1_palette_allocation_result.html">PaletteAllocationResult</a>&amp; other) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>    };</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>}</div>
 <div class="ttc" id="aclass_d_s_c_1_1_asset_data_html"><div class="ttname"><a href="class_d_s_c_1_1_asset_data.html">DSC::AssetData</a></div><div class="ttdef"><b>Definition:</b> asset_data.hpp:8</div></div>
-<div class="ttc" id="aclass_d_s_c_1_1_hash_map_html"><div class="ttname"><a href="class_d_s_c_1_1_hash_map.html">DSC::HashMap</a></div><div class="ttdoc">Generic hash map.</div><div class="ttdef"><b>Definition:</b> hash_map.hpp:16</div></div>
+<div class="ttc" id="aclass_d_s_c_1_1_hash_map_html"><div class="ttname"><a href="class_d_s_c_1_1_hash_map.html">DSC::HashMap</a></div><div class="ttdoc">Generic hash map.</div><div class="ttdef"><b>Definition:</b> hash_map.hpp:18</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_palette_manager_html"><div class="ttname"><a href="class_d_s_c_1_1_palette_manager.html">DSC::PaletteManager</a></div><div class="ttdoc">Automatic palette manager.</div><div class="ttdef"><b>Definition:</b> palette_manager.hpp:16</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_palette_manager_html_a589ebdcdc69b8d58b0958a87f30f612d"><div class="ttname"><a href="class_d_s_c_1_1_palette_manager.html#a589ebdcdc69b8d58b0958a87f30f612d">DSC::PaletteManager::unload16</a></div><div class="ttdeci">void unload16(const void *palette4)</div><div class="ttdoc">removes a 4-bit palette</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_palette_manager_html_a61e1f2323ab1cb89e0f9ffea3f3c2684"><div class="ttname"><a href="class_d_s_c_1_1_palette_manager.html#a61e1f2323ab1cb89e0f9ffea3f3c2684">DSC::PaletteManager::unload</a></div><div class="ttdeci">void unload(const AssetData *asset)</div><div class="ttdoc">Unloads colors from a previously loaded asset data palette.</div></div>

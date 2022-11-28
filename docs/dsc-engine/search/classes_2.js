@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['genericscene256_0',['GenericScene256',['../class_d_s_c_1_1_generic_scene256.html',1,'DSC']]]
+  ['birthday_0',['Birthday',['../struct_d_s_c_1_1_profile_1_1_birthday.html',1,'DSC::Profile']]],
+  ['bitsarray_1',['BitsArray',['../class_d_s_c_1_1_bits_array.html',1,'DSC']]]
 ];

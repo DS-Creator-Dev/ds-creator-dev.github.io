@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['allocator_0',['Allocator',['../class_d_s_c_1_1_allocator.html',1,'DSC']]],
-  ['assetdata_1',['AssetData',['../class_d_s_c_1_1_asset_data.html',1,'DSC']]]
+  ['_5f_5fbit_0',['__bit',['../struct_d_s_c_1_1_bits_array_1_1____bit.html',1,'DSC::BitsArray']]]
 ];

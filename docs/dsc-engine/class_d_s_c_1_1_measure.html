@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="dsc-logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">DSC Engine
    </div>
@@ -96,6 +97,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a84aa70d9f92d34b17eca58bce2f06cac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_s_c_1_1_measure.html">Measure</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_measure.html#a84aa70d9f92d34b17eca58bce2f06cac">_16bpp</a> ()</td></tr>
 <tr class="memdesc:a84aa70d9f92d34b17eca58bce2f06cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">chain function to set color depth to 16 bpp  <a href="class_d_s_c_1_1_measure.html#a84aa70d9f92d34b17eca58bce2f06cac">More...</a><br /></td></tr>
 <tr class="separator:a84aa70d9f92d34b17eca58bce2f06cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad62ca659aa42abbd0dceb9979d0437f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_s_c_1_1_measure.html">Measure</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_measure.html#ad62ca659aa42abbd0dceb9979d0437f4">bpp</a> (int color_depth)</td></tr>
+<tr class="memdesc:ad62ca659aa42abbd0dceb9979d0437f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">alternative to <a class="el" href="class_d_s_c_1_1_measure.html#ae4c45c3774ffb3622a0e75b674560f26" title="chain function to set color depth to 4 bpp">_4bpp()</a>, <a class="el" href="class_d_s_c_1_1_measure.html#a34e9cb8c41d9790d7ac69ecff483df98" title="chain function to set color depth to 8 bpp">_8bpp()</a> or <a class="el" href="class_d_s_c_1_1_measure.html#a84aa70d9f92d34b17eca58bce2f06cac" title="chain function to set color depth to 16 bpp">_16bpp()</a> with dynamic parameter  <a href="class_d_s_c_1_1_measure.html#ad62ca659aa42abbd0dceb9979d0437f4">More...</a><br /></td></tr>
+<tr class="separator:ad62ca659aa42abbd0dceb9979d0437f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba6bc11c016844d2205b3d66b6eb6ba9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_d_s_c_1_1_measure.html">Measure</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_measure.html#aba6bc11c016844d2205b3d66b6eb6ba9">metatile</a> (int tw, int th)</td></tr>
 <tr class="memdesc:aba6bc11c016844d2205b3d66b6eb6ba9"><td class="mdescLeft">&#160;</td><td class="mdescRight">chain function to set meta tile size  <a href="class_d_s_c_1_1_measure.html#aba6bc11c016844d2205b3d66b6eb6ba9">More...</a><br /></td></tr>
 <tr class="separator:aba6bc11c016844d2205b3d66b6eb6ba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +129,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a18a88c39fc3ff0427b8505ab0fa2b1a7"><td class="memItemLeft" align="right" valign="top"><a id="a18a88c39fc3ff0427b8505ab0fa2b1a7" name="a18a88c39fc3ff0427b8505ab0fa2b1a7"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>bytes_per_map_entry</b> () const</td></tr>
 <tr class="separator:a18a88c39fc3ff0427b8505ab0fa2b1a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fc6004d4c821f24cf958b89e48c7044"><td class="memItemLeft" align="right" valign="top"><a id="a8fc6004d4c821f24cf958b89e48c7044" name="a8fc6004d4c821f24cf958b89e48c7044"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>tile_id</b> (void *address, void *base, int mapping_step) const</td></tr>
+<tr class="separator:a8fc6004d4c821f24cf958b89e48c7044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Helper class to deal with graphics size computations. </p>
@@ -146,7 +153,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>bytes_per_map_entry</b
 
 <p>chain function to set color depth to 16 bpp </p>
 <dl class="section return"><dt>Returns</dt><dd>the current instance with modified settings </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator_2engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a6">D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/measure.hpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator-_dev_2_d_s_c_engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a6">D:/Users/NotImpLife/Projects/DS-Creator-Dev/DSCEngine/include/DSCEngine/video/measure.hpp</a>.</dd>
 </dl>
 
 </div>
@@ -168,7 +175,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>bytes_per_map_entry</b
 
 <p>chain function to set color depth to 4 bpp </p>
 <dl class="section return"><dt>Returns</dt><dd>the current instance with modified settings </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator_2engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a4">D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/measure.hpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator-_dev_2_d_s_c_engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a4">D:/Users/NotImpLife/Projects/DS-Creator-Dev/DSCEngine/include/DSCEngine/video/measure.hpp</a>.</dd>
 </dl>
 
 </div>
@@ -190,7 +197,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>bytes_per_map_entry</b
 
 <p>chain function to set color depth to 8 bpp </p>
 <dl class="section return"><dt>Returns</dt><dd>the current instance with modified settings </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator_2engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a5">D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/measure.hpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator-_dev_2_d_s_c_engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a5">D:/Users/NotImpLife/Projects/DS-Creator-Dev/DSCEngine/include/DSCEngine/video/measure.hpp</a>.</dd>
 </dl>
 
 </div>
@@ -233,6 +240,29 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>bytes_per_map_entry</b
 
 </div>
 </div>
+<a id="ad62ca659aa42abbd0dceb9979d0437f4" name="ad62ca659aa42abbd0dceb9979d0437f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad62ca659aa42abbd0dceb9979d0437f4">&#9670;&#160;</a></span>bpp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_d_s_c_1_1_measure.html">Measure</a> &amp; DSC::Measure::bpp </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>color_depth</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>alternative to <a class="el" href="class_d_s_c_1_1_measure.html#ae4c45c3774ffb3622a0e75b674560f26" title="chain function to set color depth to 4 bpp">_4bpp()</a>, <a class="el" href="class_d_s_c_1_1_measure.html#a34e9cb8c41d9790d7ac69ecff483df98" title="chain function to set color depth to 8 bpp">_8bpp()</a> or <a class="el" href="class_d_s_c_1_1_measure.html#a84aa70d9f92d34b17eca58bce2f06cac" title="chain function to set color depth to 16 bpp">_16bpp()</a> with dynamic parameter </p>
+<dl class="section return"><dt>Returns</dt><dd>the current instance with modified settings </dd></dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator-_dev_2_d_s_c_engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a7">D:/Users/NotImpLife/Projects/DS-Creator-Dev/DSCEngine/include/DSCEngine/video/measure.hpp</a>.</dd>
+</dl>
+
+</div>
+</div>
 <a id="aba6bc11c016844d2205b3d66b6eb6ba9" name="aba6bc11c016844d2205b3d66b6eb6ba9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aba6bc11c016844d2205b3d66b6eb6ba9">&#9670;&#160;</a></span>metatile()</h2>
 
@@ -268,7 +298,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>bytes_per_map_entry</b
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the current instance with modified settings </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator_2engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a7">D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/measure.hpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator-_dev_2_d_s_c_engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a8">D:/Users/NotImpLife/Projects/DS-Creator-Dev/DSCEngine/include/DSCEngine/video/measure.hpp</a>.</dd>
 </dl>
 
 </div>
@@ -298,7 +328,7 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>bytes_per_map_entry</b
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>size of a graphics with the given number of tiles and the defined settings</dd></dl>
 <p>In computing the tiles size, the color depth and metatile data are taken into account. By default, tiles are 8x8px with 4bpp color-depth </p>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator_2engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a10">D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/measure.hpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator-_dev_2_d_s_c_engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a11">D:/Users/NotImpLife/Projects/DS-Creator-Dev/DSCEngine/include/DSCEngine/video/measure.hpp</a>.</dd>
 </dl>
 
 </div>
@@ -366,13 +396,13 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>bytes_per_map_entry</b
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>maximum number of tiles whose size are at most the specified size </dd></dl>
-<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator_2engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a11">D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/measure.hpp</a>.</dd>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_d_1_2_users_2_not_imp_life_2_projects_2_d_s-_creator-_dev_2_d_s_c_engine_2include_2_d_s_c_engine_2video_2measure_8hpp-example.html#a12">D:/Users/NotImpLife/Projects/DS-Creator-Dev/DSCEngine/include/DSCEngine/video/measure.hpp</a>.</dd>
 </dl>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/<a class="el" href="measure_8hpp_source.html">measure.hpp</a></li>
+<li>include/DSCEngine/video/<a class="el" href="measure_8hpp_source.html">measure.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['next_0',['next',['../struct_d_s_c_1_1_scene_com.html#acf3b54e5ff279f3310076867cac5e41a',1,'DSC::SceneCom']]]
+  ['log_0',['log',['../log_8hpp.html#ab8a93ebb1fbb8d6ed5b75511b2bd362c',1,'DSC::Debug']]]
 ];

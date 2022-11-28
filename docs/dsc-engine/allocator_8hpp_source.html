@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DSC Engine: D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/allocator.hpp Source File</title>
+<title>DSC Engine: include/DSCEngine/video/allocator.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="dsc-logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">DSC Engine
    </div>
@@ -69,7 +70,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_394ff8aee7398e78ab38baed8ef80807.html">Users</a></li><li class="navelem"><a class="el" href="dir_4c01488eab89300ea37a845a86063dbe.html">NotImpLife</a></li><li class="navelem"><a class="el" href="dir_a93fcd782644ed1579df88e06d9de278.html">Projects</a></li><li class="navelem"><a class="el" href="dir_a089ef01e5a80cba15d5446787c04345.html">DS-Creator</a></li><li class="navelem"><a class="el" href="dir_b26f814e773c8f07ec4d3247c5d2b9e2.html">engine</a></li><li class="navelem"><a class="el" href="dir_8f882f87747ddd3076a7c5f50d49de64.html">include</a></li><li class="navelem"><a class="el" href="dir_59cea444c021c16e9728dba13b9bbb8f.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_939255d78540b7daed46f7f7d4c444c8.html">video</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_fa9b8640b3ba23084e3edfd8b1f1119e.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_fff527a2c716effb0e73d77933f84a0f.html">video</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -89,15 +90,20 @@ $(function() {
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <span class="keywordtype">int</span> base_length;        </div>
 <div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keywordtype">int</span> free_space_head;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_allocator.html#a423325a873648b6f5b07deda0b46f59a">   24</a></span>        <a class="code hl_function" href="class_d_s_c_1_1_allocator.html#a423325a873648b6f5b07deda0b46f59a">Allocator</a>(<span class="keywordtype">int</span> offset, <span class="keywordtype">int</span> length);      </div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>        </div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_allocator.html#a3f93be45bc2cadbabeeb5cc3474e669f">   31</a></span>        <span class="keywordtype">void</span>* <a class="code hl_function" href="class_d_s_c_1_1_allocator.html#a3f93be45bc2cadbabeeb5cc3474e669f">reserve</a>(<span class="keywordtype">int</span> size, <span class="keywordtype">int</span> desired_offset = -1);</div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        </div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_allocator.html#a8720578227bfc11f961b1494b314a9e2">   38</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_d_s_c_1_1_allocator.html#a8720578227bfc11f961b1494b314a9e2">release</a>(<span class="keywordtype">void</span>* address);        </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <a class="code hl_class" href="class_d_s_c_1_1_allocator.html">~Allocator</a>();</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>    };</div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>}</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <a class="code hl_class" href="class_d_s_c_1_1_allocator.html">Allocator</a>();</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_allocator.html#a423325a873648b6f5b07deda0b46f59a">   26</a></span>        <a class="code hl_function" href="class_d_s_c_1_1_allocator.html#a423325a873648b6f5b07deda0b46f59a">Allocator</a>(<span class="keywordtype">int</span> offset, <span class="keywordtype">int</span> length);      </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_allocator.html#a3f93be45bc2cadbabeeb5cc3474e669f">   33</a></span>        <span class="keywordtype">void</span>* <a class="code hl_function" href="class_d_s_c_1_1_allocator.html#a3f93be45bc2cadbabeeb5cc3474e669f">reserve</a>(<span class="keywordtype">int</span> size, <span class="keywordtype">int</span> desired_offset = -1);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_allocator.html#a8720578227bfc11f961b1494b314a9e2">   40</a></span>        <span class="keywordtype">void</span> <a class="code hl_function" href="class_d_s_c_1_1_allocator.html#a8720578227bfc11f961b1494b314a9e2">release</a>(<span class="keywordtype">void</span>* address);        </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_class" href="class_d_s_c_1_1_allocator.html">~Allocator</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keyword">static</span> <a class="code hl_class" href="class_d_s_c_1_1_allocator.html">Allocator</a> defaultMainSpriteVram();</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        <span class="keyword">static</span> <a class="code hl_class" href="class_d_s_c_1_1_allocator.html">Allocator</a> defaultSubSpriteVram();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    };</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>}</div>
 <div class="ttc" id="aclass_d_s_c_1_1_allocator_html"><div class="ttname"><a href="class_d_s_c_1_1_allocator.html">DSC::Allocator</a></div><div class="ttdoc">flexible VRAM manager</div><div class="ttdef"><b>Definition:</b> allocator.hpp:11</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_allocator_html_a3f93be45bc2cadbabeeb5cc3474e669f"><div class="ttname"><a href="class_d_s_c_1_1_allocator.html#a3f93be45bc2cadbabeeb5cc3474e669f">DSC::Allocator::reserve</a></div><div class="ttdeci">void * reserve(int size, int desired_offset=-1)</div><div class="ttdoc">The equivalent of malloc(size).</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_allocator_html_a423325a873648b6f5b07deda0b46f59a"><div class="ttname"><a href="class_d_s_c_1_1_allocator.html#a423325a873648b6f5b07deda0b46f59a">DSC::Allocator::Allocator</a></div><div class="ttdeci">Allocator(int offset, int length)</div><div class="ttdoc">Creates a new allocator instance.</div></div>

@@ -4,102 +4,102 @@ html {
 /* page base colors */
 --page-background-color: white;
 --page-foreground-color: black;
---page-link-color: #3D578C;
---page-visited-link-color: #4665A2;
+--page-link-color: #194BB0;
+--page-visited-link-color: #1D57CB;
 
 /* index */
---index-odd-item-bg-color: #F8F9FC;
+--index-odd-item-bg-color: #F6F8FD;
 --index-even-item-bg-color: white;
 --index-header-color: black;
 --index-separator-color: #A0A0A0;
 
 /* header */
---header-background-color: #F9FAFC;
---header-separator-color: #C4CFE5;
+--header-background-color: #F8F9FD;
+--header-separator-color: #B6CAF4;
 --header-gradient-image: url('nav_h.png');
---group-header-separator-color: #879ECB;
---group-header-color: #354C7B;
+--group-header-separator-color: #6994E9;
+--group-header-color: #16429A;
 --inherit-header-color: gray;
 
---footer-foreground-color: #2A3D61;
+--footer-foreground-color: #11347A;
 --footer-logo-width: 104px;
---citation-label-color: #334975;
+--citation-label-color: #153F93;
 --glow-color: cyan;
 
 --title-background-color: white;
---title-separator-color: #5373B4;
---directory-separator-color: #9CAFD4;
---separator-color: #4A6AAA;
+--title-separator-color: #2865DF;
+--directory-separator-color: #83A6EC;
+--separator-color: #1F5CD5;
 
---blockquote-background-color: #F7F8FB;
---blockquote-border-color: #9CAFD4;
+--blockquote-background-color: #F5F7FD;
+--blockquote-border-color: #83A6EC;
 
---scrollbar-thumb-color: #9CAFD4;
---scrollbar-background-color: #F9FAFC;
+--scrollbar-thumb-color: #83A6EC;
+--scrollbar-background-color: #F8F9FD;
 
---icon-background-color: #728DC1;
+--icon-background-color: #4F81E5;
 --icon-foreground-color: white;
 --icon-doc-image: url('doc.png');
 
 /* brief member declaration list */
---memdecl-background-color: #F9FAFC;
---memdecl-separator-color: #DEE4F0;
+--memdecl-background-color: #F8F9FD;
+--memdecl-separator-color: #D6E1F9;
 --memdecl-foreground-color: #555;
---memdecl-template-color: #4665A2;
+--memdecl-template-color: #1D57CB;
 
 /* detailed member list */
---memdef-border-color: #A8B8D9;
---memdef-title-background-color: #E2E8F2;
+--memdef-border-color: #92B1EF;
+--memdef-title-background-color: #DBE5F9;
 --memdef-title-gradient-image: url('nav_f.png');
---memdef-proto-background-color: #DFE5F1;
---memdef-proto-text-color: #253555;
+--memdef-proto-background-color: #D7E2F9;
+--memdef-proto-text-color: #0F2E6B;
 --memdef-proto-text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
 --memdef-doc-background-color: white;
 --memdef-param-name-color: #602020;
---memdef-template-color: #4665A2;
+--memdef-template-color: #1D57CB;
 
 /* tables */
---table-cell-border-color: #2D4068;
---table-header-background-color: #374F7F;
+--table-cell-border-color: #133882;
+--table-header-background-color: #1744A0;
 --table-header-foreground-color: #FFFFFF;
 
 /* labels */
---label-background-color: #728DC1;
---label-left-top-border-color: #5373B4;
---label-right-bottom-border-color: #C4CFE5;
+--label-background-color: #4F81E5;
+--label-left-top-border-color: #2865DF;
+--label-right-bottom-border-color: #B6CAF4;
 --label-foreground-color: white;
 
 /** navigation bar/tree/menu */
---nav-background-color: #F9FAFC;
---nav-foreground-color: #364D7C;
+--nav-background-color: #F8F9FD;
+--nav-foreground-color: #16439C;
 --nav-gradient-image: url('tab_b.png');
 --nav-gradient-hover-image: url('tab_h.png');
 --nav-gradient-active-image: url('tab_a.png');
 --nav-gradient-active-image-parent: url("../tab_a.png");
 --nav-separator-image: url('tab_s.png');
 --nav-breadcrumb-image: url('bc_s.png');
---nav-breadcrumb-border-color: #C2CDE4;
+--nav-breadcrumb-border-color: #B3C8F3;
 --nav-splitbar-image: url('splitbar.png');
 --nav-font-size-level1: 13px;
 --nav-font-size-level2: 10px;
 --nav-font-size-level3: 9px;
---nav-text-normal-color: #283A5D;
+--nav-text-normal-color: #113274;
 --nav-text-hover-color: white;
 --nav-text-active-color: white;
 --nav-text-normal-shadow: 0px 1px 1px rgba(255, 255, 255, 0.9);
 --nav-text-hover-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
 --nav-text-active-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
---nav-menu-button-color: #364D7C;
+--nav-menu-button-color: #16439C;
 --nav-menu-background-color: white;
 --nav-menu-foreground-color: #555555;
 --nav-menu-toggle-color: rgba(255, 255, 255, 0.5);
---nav-arrow-color: #9CAFD4;
---nav-arrow-selected-color: #9CAFD4;
+--nav-arrow-color: #83A6EC;
+--nav-arrow-selected-color: #83A6EC;
 
 /* table of contents */
---toc-background-color: #F4F6FA;
---toc-border-color: #D8DFEE;
---toc-header-color: #4665A2;
+--toc-background-color: #F2F5FD;
+--toc-border-color: #CEDCF7;
+--toc-header-color: #1D57CB;
 
 /** search field */
 --search-background-color: white;
@@ -107,13 +107,13 @@ html {
 --search-magnification-image: url('mag.svg');
 --search-magnification-select-image: url('mag_sel.svg');
 --search-active-color: black;
---search-filter-background-color: #F9FAFC;
+--search-filter-background-color: #F8F9FD;
 --search-filter-foreground-color: black;
---search-filter-border-color: #90A5CE;
+--search-filter-border-color: #749BEA;
 --search-filter-highlight-text-color: white;
---search-filter-highlight-bg-color: #3D578C;
---search-results-foreground-color: #425E97;
---search-results-background-color: #EEF1F7;
+--search-filter-highlight-bg-color: #194BB0;
+--search-results-foreground-color: #1B51BD;
+--search-results-background-color: #E9EFFB;
 --search-results-border-color: black;
 --search-box-shadow: inset 0.5px 0.5px 3px 0px #555;
 
@@ -129,24 +129,24 @@ html {
 --code-vhdl-char-color: #000000;
 --code-vhdl-keyword-color: #700070;
 --code-vhdl-logic-color: #FF0000;
---code-link-color: #4665A2;
---code-external-link-color: #4665A2;
+--code-link-color: #1D57CB;
+--code-external-link-color: #1D57CB;
 --fragment-foreground-color: black;
---fragment-background-color: #FBFCFD;
---fragment-border-color: #C4CFE5;
+--fragment-background-color: #FAFCFE;
+--fragment-border-color: #B6CAF4;
 --fragment-lineno-border-color: #00FF00;
 --fragment-lineno-background-color: #E8E8E8;
 --fragment-lineno-foreground-color: black;
---fragment-lineno-link-fg-color: #4665A2;
+--fragment-lineno-link-fg-color: #1D57CB;
 --fragment-lineno-link-bg-color: #D8D8D8;
---fragment-lineno-link-hover-fg-color: #4665A2;
+--fragment-lineno-link-hover-fg-color: #1D57CB;
 --fragment-lineno-link-hover-bg-color: #C8C8C8;
 --tooltip-foreground-color: black;
 --tooltip-background-color: white;
 --tooltip-border-color: gray;
 --tooltip-doc-color: grey;
 --tooltip-declaration-color: #006318;
---tooltip-link-color: #4665A2;
+--tooltip-link-color: #1D57CB;
 --tooltip-shadow: 1px 1px 7px gray;
 
 /** font-family */
@@ -168,102 +168,102 @@ html {
 /* page base colors */
 --page-background-color: black;
 --page-foreground-color: #C9D1D9;
---page-link-color: #90A5CE;
---page-visited-link-color: #A3B4D7;
+--page-link-color: #749BEA;
+--page-visited-link-color: #8CADEE;
 
 /* index */
---index-odd-item-bg-color: #0B101A;
+--index-odd-item-bg-color: #040E21;
 --index-even-item-bg-color: black;
---index-header-color: #C4CFE5;
---index-separator-color: #334975;
+--index-header-color: #B6CAF4;
+--index-separator-color: #153F93;
 
 /* header */
---header-background-color: #070B11;
---header-separator-color: #141C2E;
+--header-background-color: #030916;
+--header-separator-color: #08193A;
 --header-gradient-image: url('nav_hd.png');
---group-header-separator-color: #283A5D;
---group-header-color: #90A5CE;
+--group-header-separator-color: #113274;
+--group-header-color: #749BEA;
 --inherit-header-color: #A0A0A0;
 
---footer-foreground-color: #5B7AB7;
+--footer-foreground-color: #326CE1;
 --footer-logo-width: 60px;
---citation-label-color: #90A5CE;
+--citation-label-color: #749BEA;
 --glow-color: cyan;
 
---title-background-color: #090D16;
---title-separator-color: #354C79;
---directory-separator-color: #283A5D;
---separator-color: #283A5D;
+--title-background-color: #040C1B;
+--title-separator-color: #164198;
+--directory-separator-color: #113274;
+--separator-color: #113274;
 
---blockquote-background-color: #101826;
---blockquote-border-color: #283A5D;
+--blockquote-background-color: #071430;
+--blockquote-border-color: #113274;
 
---scrollbar-thumb-color: #283A5D;
---scrollbar-background-color: #070B11;
+--scrollbar-thumb-color: #113274;
+--scrollbar-background-color: #030916;
 
---icon-background-color: #334975;
---icon-foreground-color: #C4CFE5;
+--icon-background-color: #153F93;
+--icon-foreground-color: #B6CAF4;
 --icon-doc-image: url('docd.png');
 
 /* brief member declaration list */
---memdecl-background-color: #0B101A;
---memdecl-separator-color: #2C3F65;
+--memdecl-background-color: #040E21;
+--memdecl-separator-color: #12367E;
 --memdecl-foreground-color: #BBB;
---memdecl-template-color: #7C95C6;
+--memdecl-template-color: #5B8AE7;
 
 /* detailed member list */
---memdef-border-color: #233250;
---memdef-title-background-color: #1B2840;
+--memdef-border-color: #0E2B65;
+--memdef-title-background-color: #0B2250;
 --memdef-title-gradient-image: url('nav_fd.png');
---memdef-proto-background-color: #19243A;
---memdef-proto-text-color: #9DB0D4;
+--memdef-proto-background-color: #0A1F49;
+--memdef-proto-text-color: #85A7ED;
 --memdef-proto-text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.9);
 --memdef-doc-background-color: black;
 --memdef-param-name-color: #D28757;
---memdef-template-color: #7C95C6;
+--memdef-template-color: #5B8AE7;
 
 /* tables */
---table-cell-border-color: #283A5D;
---table-header-background-color: #283A5D;
---table-header-foreground-color: #C4CFE5;
+--table-cell-border-color: #113274;
+--table-header-background-color: #113274;
+--table-header-foreground-color: #B6CAF4;
 
 /* labels */
---label-background-color: #354C7B;
---label-left-top-border-color: #4665A2;
---label-right-bottom-border-color: #283A5D;
+--label-background-color: #16429A;
+--label-left-top-border-color: #1D57CB;
+--label-right-bottom-border-color: #113274;
 --label-foreground-color: #CCCCCC;
 
 /** navigation bar/tree/menu */
---nav-background-color: #101826;
---nav-foreground-color: #364D7C;
+--nav-background-color: #071430;
+--nav-foreground-color: #16439C;
 --nav-gradient-image: url('tab_bd.png');
 --nav-gradient-hover-image: url('tab_hd.png');
 --nav-gradient-active-image: url('tab_ad.png');
 --nav-gradient-active-image-parent: url("../tab_ad.png");
 --nav-separator-image: url('tab_sd.png');
 --nav-breadcrumb-image: url('bc_sd.png');
---nav-breadcrumb-border-color: #2A3D61;
+--nav-breadcrumb-border-color: #11347A;
 --nav-splitbar-image: url('splitbard.png');
 --nav-font-size-level1: 13px;
 --nav-font-size-level2: 10px;
 --nav-font-size-level3: 9px;
---nav-text-normal-color: #B6C4DF;
---nav-text-hover-color: #DCE2EF;
---nav-text-active-color: #DCE2EF;
+--nav-text-normal-color: #A4BEF1;
+--nav-text-hover-color: #D3DFF8;
+--nav-text-active-color: #D3DFF8;
 --nav-text-normal-shadow: 0px 1px 1px black;
 --nav-text-hover-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
 --nav-text-active-shadow: 0px 1px 1px rgba(0, 0, 0, 1.0);
---nav-menu-button-color: #B6C4DF;
---nav-menu-background-color: #05070C;
+--nav-menu-button-color: #A4BEF1;
+--nav-menu-background-color: #020610;
 --nav-menu-foreground-color: #BBBBBB;
 --nav-menu-toggle-color: rgba(255, 255, 255, 0.2);
---nav-arrow-color: #334975;
---nav-arrow-selected-color: #90A5CE;
+--nav-arrow-color: #153F93;
+--nav-arrow-selected-color: #749BEA;
 
 /* table of contents */
---toc-background-color: #151E30;
---toc-border-color: #202E4A;
---toc-header-color: #A3B4D7;
+--toc-background-color: #081A3C;
+--toc-border-color: #0D285C;
+--toc-header-color: #8CADEE;
 
 /** search field */
 --search-background-color: black;
@@ -271,15 +271,15 @@ html {
 --search-magnification-image: url('mag_d.svg');
 --search-magnification-select-image: url('mag_seld.svg');
 --search-active-color: #C5C5C5;
---search-filter-background-color: #101826;
---search-filter-foreground-color: #90A5CE;
---search-filter-border-color: #7C95C6;
---search-filter-highlight-text-color: #BCC9E2;
---search-filter-highlight-bg-color: #283A5D;
---search-results-background-color: #101826;
---search-results-foreground-color: #90A5CE;
---search-results-border-color: #7C95C6;
---search-box-shadow: inset 0.5px 0.5px 3px 0px #2F436C;
+--search-filter-background-color: #071430;
+--search-filter-foreground-color: #749BEA;
+--search-filter-border-color: #5B8AE7;
+--search-filter-highlight-text-color: #ABC3F2;
+--search-filter-highlight-bg-color: #113274;
+--search-results-background-color: #071430;
+--search-results-foreground-color: #749BEA;
+--search-results-border-color: #5B8AE7;
+--search-box-shadow: inset 0.5px 0.5px 3px 0px #133A88;
 
 /** code fragments */
 --code-keyword-color: #CC99CD;
