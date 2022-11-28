@@ -109,31 +109,34 @@ $(function() {
 <div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>            <span class="keywordtype">int</span> anim_ticks = 1;</div>
 <div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="keywordtype">int</span> crt_anim_ticks = 0;</div>
 <div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <span class="keyword">public</span>:</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            <a class="code hl_class" href="class_d_s_c_1_1_obj_visual.html">ObjVisual</a>(DSC::ObjSize obj_size);</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            <a class="code hl_struct" href="struct_d_s_c_1_1_size.html">Size&lt;char&gt;</a> get_size() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            </div>
-<div class="line"><a id="l00047" name="l00047"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_obj_visual.html#a8c0feba1c505f6abf0b11e3ee333ce03">   47</a></span>            <span class="keywordtype">int</span> <a class="code hl_function" href="class_d_s_c_1_1_obj_visual.html#a8c0feba1c505f6abf0b11e3ee333ce03">add_frame</a>(<a class="code hl_class" href="class_d_s_c_1_1_obj_frame.html">ObjFrame</a>* frame);</div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            </div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            <span class="keywordtype">bool</span> auto_delete_frames = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            <a class="code hl_class" href="class_d_s_c_1_1_obj_visual.html">ObjVisual</a>(DSC::ObjSize obj_size);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <a class="code hl_struct" href="struct_d_s_c_1_1_size.html">Size&lt;char&gt;</a> get_size() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_obj_visual.html#a8c0feba1c505f6abf0b11e3ee333ce03">   48</a></span>            <span class="keywordtype">int</span> <a class="code hl_function" href="class_d_s_c_1_1_obj_visual.html#a8c0feba1c505f6abf0b11e3ee333ce03">add_frame</a>(<a class="code hl_class" href="class_d_s_c_1_1_obj_frame.html">ObjFrame</a>* frame);</div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_obj_visual.html#ab67c202ff4ac339d376090261063da41">   53</a></span>            <span class="keywordtype">void</span>* <a class="code hl_function" href="class_d_s_c_1_1_obj_visual.html#ab67c202ff4ac339d376090261063da41">get_crt_gfx</a>() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            </div>
-<div class="line"><a id="l00059" name="l00059"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_obj_visual.html#acbdc43d27ad9d039382d7fc105a2ac0c">   59</a></span>            <span class="keywordtype">int</span> <a class="code hl_function" href="class_d_s_c_1_1_obj_visual.html#acbdc43d27ad9d039382d7fc105a2ac0c">set_crt_gfx</a>(<span class="keywordtype">int</span> gfx_index);</div>
-<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>            </div>
-<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            <span class="keywordtype">int</span> get_crt_color_depth() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            </div>
-<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            <span class="keywordtype">void</span> update();</div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>                        </div>
-<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            <span class="keywordtype">int</span> add_frameset(<span class="keywordtype">int</span> frame_id, ...);</div>
-<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            </div>
-<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            <span class="keywordtype">void</span> set_animation(<span class="keywordtype">int</span> frameset_id, <span class="keywordtype">bool</span> reset_current_frame = <span class="keyword">false</span>);</div>
-<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            </div>
-<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            <span class="keywordtype">void</span> set_animation_ticks(<span class="keywordtype">int</span> ticks);</div>
-<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            </div>
-<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            <span class="keyword">inline</span> <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keywordtype">int</span> FRAMESET_END = -1;</div>
-<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    };  </div>
-<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>}</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_obj_visual.html#ab67c202ff4ac339d376090261063da41">   54</a></span>            <span class="keywordtype">void</span>* <a class="code hl_function" href="class_d_s_c_1_1_obj_visual.html#ab67c202ff4ac339d376090261063da41">get_crt_gfx</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            </div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_obj_visual.html#acbdc43d27ad9d039382d7fc105a2ac0c">   60</a></span>            <span class="keywordtype">int</span> <a class="code hl_function" href="class_d_s_c_1_1_obj_visual.html#acbdc43d27ad9d039382d7fc105a2ac0c">set_crt_gfx</a>(<span class="keywordtype">int</span> gfx_index);</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>            </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>            <span class="keywordtype">int</span> get_crt_color_depth() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span>            </div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>            <span class="keywordtype">void</span> update();</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>                        </div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>            <span class="keywordtype">int</span> add_frameset(<span class="keywordtype">int</span> frame_id, ...);</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>            </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>            <span class="keywordtype">void</span> set_animation(<span class="keywordtype">int</span> frameset_id, <span class="keywordtype">bool</span> reset_current_frame = <span class="keyword">false</span>);</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            </div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>            <span class="keywordtype">void</span> set_animation_ticks(<span class="keywordtype">int</span> ticks);</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>            </div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>            <span class="keyword">inline</span> <span class="keyword">static</span> <span class="keyword">constexpr</span> <span class="keywordtype">int</span> FRAMESET_END = -1;</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>            </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>            <a class="code hl_class" href="class_d_s_c_1_1_obj_visual.html">~ObjVisual</a>();</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>    };  </div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>}</div>
 <div class="ttc" id="aclass_d_s_c_1_1_obj_frame_html"><div class="ttname"><a href="class_d_s_c_1_1_obj_frame.html">DSC::ObjFrame</a></div><div class="ttdef"><b>Definition:</b> obj_frame.hpp:14</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_obj_visual_html"><div class="ttname"><a href="class_d_s_c_1_1_obj_visual.html">DSC::ObjVisual</a></div><div class="ttdoc">OAM Object graphics handler class</div><div class="ttdef"><b>Definition:</b> obj_visual.hpp:19</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_obj_visual_html_a8c0feba1c505f6abf0b11e3ee333ce03"><div class="ttname"><a href="class_d_s_c_1_1_obj_visual.html#a8c0feba1c505f6abf0b11e3ee333ce03">DSC::ObjVisual::add_frame</a></div><div class="ttdeci">int add_frame(ObjFrame *frame)</div><div class="ttdoc">adds a new frame to the visual</div></div>
