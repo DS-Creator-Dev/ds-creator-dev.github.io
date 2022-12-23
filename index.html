@@ -1,411 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	<meta name="google-site-verification" content="qfNkC7vEzlxV8MbUpj57dLjMmQySQQecfHUif9r5W-o" />
-	<meta name="keywords" content="DS Creator, DS, Creator, ds, ds game maker, DS Game Maker, make ds games, ds games, ds game, make your own ds game, homebrew, ds homebrew, nintendo ds, nintendo ds homebrew">
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="icon" href="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="icon" type="image/png" sizes="2500x2500" href="./public/imgs/DSC_Logo.png">
 
-    <!-- Change the description wrt project -->
-    <meta
-      name="description"
-      content="A game engine for Windows, Linux, and macOS that allows anyone to make DS games with ease!"
-    />
+<head>
+  <meta name="google-site-verification" content="qfNkC7vEzlxV8MbUpj57dLjMmQySQQecfHUif9r5W-o" />
+  <meta name="keywords"
+    content="DS Creator, DS, Creator, ds, ds game maker, DS Game Maker, make ds games, dsgm, ds game maker, nds, homebrew, ds homebrew, nds homebrew, 3ds, 3ds homebrew, ds games, ds game, make your own ds game">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="icon" href="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="2500x2500" href="./public/imgs/DSC_Logo.png">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Change the description wrt project -->
+  <meta name="description"
+    content="A game engine for Windows, Linux, and macOS that allows anyone to make DS games with ease!" />
 
-    <!-- You can add your own fonts from fonts.google.com -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Default Script tags -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="./public/js/index.js"></script>
-    <title>DS Creator Docs : Home</title>
-  </head>
+  <!-- You can add your own fonts from fonts.google.com -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
 
-  <!-- Change the font-family to our choice -->
-  <body style="font-family: 'Poppins', sans-serif">
-    <!-- Header start here -->
-    <header class="w-full p-3 border flex">
-      <nav
-        class="w-full flex flex-col lg:flex-row md:flex-row sm:flex-row items-start lg:item-center md:item-center sm:item-center lg:justify-between md:justify-between sm:justify-between justify-start"
-      >
-        <ul>
-          <li class="font-mono text-xl">DS Creator</li>
-        </ul>
-        <ul id="header-nav" class="mr-6 sm:flex md:flex lg:flex hidden">
-          <li
-            class="mr-5 mb-3 mt-5 sm:mb-0 sm:mt-0 md:mb-0 md:mt-0 lg:mb-0 lg:mt-0"
-          >
-            <a href="./index.html">Home</a>
-          </li>
-          <li
-            class="mr-5 mb-3 mt-5 sm:mb-0 sm:mt-0 md:mb-0 md:mt-0 lg:mb-0 lg:mt-0"
-          >
-            <a href="./docs.html">Docs</a>
-          </li>
-          <div>
-            <ul class="flex">
-			  <li class="mr-5">
-                <a href="https://discord.com/invite/CqrXmqxAf8"><img src="./public/svgs/discord.svg" alt="Discord Link" /></a>
+  <!-- Default Script tags -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./public/js/index.js"></script>
+  <title>DS Creator Docs : Home</title>
+</head>
+
+<!-- Change the font-family to our choice -->
+
+<body style="font-family: 'Poppins', sans-serif">
+  <!-- Header start here -->
+  <header class="w-full p-3 border flex">
+    <nav
+      class="w-full flex flex-col lg:flex-row md:flex-row sm:flex-row items-start lg:item-center md:item-center sm:item-center lg:justify-between md:justify-between sm:justify-between justify-start">
+      <ul>
+        <li class="font-mono text-xl">DS Creator</li>
+      </ul>
+      <ul id="header-nav" class="mr-6 sm:flex md:flex lg:flex hidden">
+        <li class="mr-5 mb-3 mt-5 sm:mb-0 sm:mt-0 md:mb-0 md:mt-0 lg:mb-0 lg:mt-0">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="mr-5 mb-3 mt-5 sm:mb-0 sm:mt-0 md:mb-0 md:mt-0 lg:mb-0 lg:mt-0">
+          <a href="./docs.html">Docs</a>
+        </li>
+        <div>
+          <ul class="flex">
+            <li class="mr-5">
+              <a href="https://discord.com/invite/CqrXmqxAf8"><img src="./public/svgs/discord.svg"
+                  alt="Discord Link" /></a>
+            </li>
+            <li class="mr-5">
+              <a href="https://github.com/DS-Creator-Dev/DS-Creator"><img src="./public/svgs/github.svg"
+                  alt="GitHub Link" /></a>
+            </li>
+            <li class="mr-0">
+              <a href="https://www.youtube.com/channel/UCpPIw9q3QlrpsNsurh2Tzjw"><img src="./public/svgs/youtube.svg"
+                  alt="YouTube Link" /></a>
+            </li>
+          </ul>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="sm:hidden flex" onclick="OnclickOpenMenu()" id="open-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+          clip-rule="evenodd" />
+      </svg>
+    </div>
+    <div class="hidden" onclick="OnclickCloseMenu()" id="close-menu">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </div>
+  </header>
+  <!-- Header ends here -->
+
+  <!-- Documentation Title and Description start here -->
+  <div class="bg-gradient-to-r from-[#0F2027] to-[#2C5364] p-10">
+    <div class="w-full items-center flex justify-center flex-col">
+      <p class="text-3xl text-white">Documentation</p>
+      <!-- Change Description as per your information -->
+      <p class="font-sans text-white text-center w-[300px] lg:w-[700px] md:w-[700px] sm:w-[600px] mt-4">
+        A game engine for Windows, Linux, and macOS that allows anyone to make DS games with ease!
+      </p>
+    </div>
+  </div>
+  <!-- Document title and description ends here -->
+
+  <div class="w-full flex justify-center p-6 flex-col items-center">
+    <p class="p-5 text-xl">Getting started is easy!</p>
+    <a href="./docs.html" class="text-white h-50 bg-red-600 p-2 w-44 rounded text-center">
+      Get Started
+    </a>
+  </div>
+
+  <!-- Documentation Cards starts here -->
+  <div class="w-full flex justify-center items-center mt-20 mb-20">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+      <div
+        class="max-w-sm rounded shadow bg-white bg-gradient-to-br from-[#302b63] to-[#2c3e50] block -inset-1 -skew-y-3 relative inline-block before:block before:absolute before:-inset-1 before:bg-blue-500 before:h-2 before:rounded">
+        <div class="flex">
+          <div class="px-6 py-5">
+            <p tabindex="0"
+              class="focus:outline-none text-base font-medium leading-none text-gray-800 dark:text-gray-100 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+              </svg>
+              Introduction
+            </p>
+            <p tabindex="0"
+              class="transition ease-in-out focus:outline-none text-base leading-2 text-gray-500 dark:text-gray-400 pt-2 hover:text-gray-100">
+              Using DS Creator, you can make your own DS games. Developed especially for beginners,
+              DS Creator makes it easy to learn how to program and create your own games, without
+              needing to know complicated coding languages.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="max-w-sm rounded shadow bg-white bg-gradient-to-br from-[#302b63] to-[#2c3e50] block -inset-1 -skew-y-3 relative inline-block before:block before:absolute before:-inset-1 before:bg-[#7667A5] before:h-2 before:rounded">
+        <div class="flex">
+          <div class="px-6 py-5">
+            <p tabindex="0"
+              class="focus:outline-none text-base font-medium leading-none text-gray-800 dark:text-gray-100 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M2 9.5A3.5 3.5 0 005.5 13H9v2.586l-1.293-1.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 15.586V13h2.5a4.5 4.5 0 10-.616-8.958 4.002 4.002 0 10-7.753 1.977A3.5 3.5 0 002 9.5zm9 3.5H9V8a1 1 0 012 0v5z"
+                  clip-rule="evenodd" />
+              </svg>
+              Installation
+            </p>
+            <p tabindex="0"
+              class="transition ease-in-out focus:outline-none text-base leading-2 text-gray-500 dark:text-gray-400 pt-2 hover:text-gray-100">
+              Installing DS Creator is simple. Simply download DS Creator and install devkitPro's libnds. Now you are
+              ready to make DS games!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="max-w-sm rounded shadow bg-white bg-gradient-to-br from-[#302b63] to-[#2c3e50] block -inset-1 -skew-y-3 relative inline-block before:block before:absolute before:-inset-1 before:bg-red-500 before:h-2 before:rounded">
+        <div class="flex">
+          <div class="px-6 py-5">
+            <p tabindex="0"
+              class="focus:outline-none text-base font-medium leading-none text-gray-800 dark:text-gray-100 flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                  clip-rule="evenodd" />
+              </svg>
+              Creating DS Games
+            </p>
+            <p tabindex="0"
+              class="transition ease-in-out focus:outline-none text-base leading-2 text-gray-500 dark:text-gray-400 pt-2 hover:text-gray-100">
+              In DS Creator, you use scenes, objects, and events to create your dream game!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Documentation Cards ends here -->
+
+  <!-- Contribution section starts here -->
+  <!-- This is optional as per your wish -->
+  <!-- You can also change the design -->
+  <section id="contributors">
+    <!-- Replace background image as per your choice -->
+    <div class="container mx-auto m-5 bg-gradient-to-r from-[#009FFF] to-[#ec2F4B] rounded-md">
+      <div class="flex flex-col justify-center items-center py-12 mx-4 md:mx-6">
+        <div class="lg:w-1/2 flex flex-col justify-center items-center mb-10">
+          <h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold text-center text-white">
+            Meet our contributors
+          </h1>
+        </div>
+        <div role="list" aria-label="Team members" class="grid grid-flow-row md:grid-flow-col gap-10">
+          <!--Kenyon-->
+          <div role="listitem" class="relative flex justify-center items-center">
+            <a href="https://github.com/BowersIndustry" target="_blank">
+              <div class="relative h-40 bg-white hover:drop-shadow-2xl w-48 flex justify-center rounded-md">
+                <img src="./public/svgs/github.svg" class="absolute top-16 h-6 w-6" alt="github.img" />
+                <!-- add github username under title -->
+                <img src="https://avatars.githubusercontent.com/u/83834271?v=4"
+                  class="absolute w-20 h-20 -top-8 rounded-full" alt="display avatar" role="img"
+                  title="Kenyon Bowers" />
+                <!-- Enter your github username -->
+                <p class="absolute top-24 text-center">Kenyon Bowers</p>
+                <p class="absolute text-sm bottom-6 text-center">Lead Developer</p>
+              </div>
+            </a>
+          </div>
+          <!--NotImplementedLife-->
+          <div role="listitem" class="relative flex justify-center items-center">
+            <a href="https://github.com/NotImplementedLife" target="_blank">
+              <div class="relative h-40 bg-white hover:drop-shadow-2xl w-48 flex justify-center rounded-md">
+                <img src="./public/svgs/github.svg" class="absolute top-16 h-6 w-6" alt="github.img" />
+                <!-- add github username under title -->
+                <img src="https://avatars.githubusercontent.com/u/70803115?v=4"
+                  class="absolute w-20 h-20 -top-8 rounded-full" alt="display avatar" role="img"
+                  title="NotImplementedLife" />
+                <!-- Enter your github username -->
+                <p class="absolute top-24 text-center">NotImplementedLife</p>
+                <p class="absolute text-sm bottom-6 text-center">UI Designer</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contribution section ends here -->
+
+  <!-- Footer starts here -->
+  <footer>
+    <div class="bg-black h-38 py-1 px-1 mt-5">
+      <div tabindex="0" aria-label="footer"
+        class="focus:outline-none mx-auto container flex flex-col items-center justify-center">
+        <div class="text-black flex flex-col md:items-center f-f-l pt-0">
+          <div class="my-6 text-base text-color f-f-l">
+            <ul class="md:flex items-center">
+              <li class="md:mr-6 cursor-pointer pt-4 lg:py-0">
+                <a href="./index.html" class="text-white focus:outline-none focus:underline hover:text-gray-200">Home
+                </a>
               </li>
-              <li class="mr-5">
-                <a href="https://github.com/BowersIndustry/ds-creator-docs"><img src="./public/svgs/github.svg" alt="GitHub Link" /></a>
-              </li>
-              <li class="mr-0">
-                <a href="https://www.youtube.com/channel/UCpPIw9q3QlrpsNsurh2Tzjw"><img src="./public/svgs/youtube.svg" alt="YouTube Link" /></a>
+              <li class="md:mr-6 cursor-pointer pt-4 lg:py-0">
+                <a href="./docs.html" class="text-white focus:outline-none focus:underline hover:text-gray-200">Docs
+                </a>
               </li>
             </ul>
           </div>
-        </ul>
-      </nav>
-
-      <div class="sm:hidden flex" onclick="OnclickOpenMenu()" id="open-menu">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="hidden" onclick="OnclickCloseMenu()" id="close-menu">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-6 w-6"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M6 18L18 6M6 6l12 12"
-          />
-        </svg>
-      </div>
-    </header>
-    <!-- Header ends here -->
-
-    <!-- Documentation Title and Description start here -->
-    <div class="bg-gradient-to-r from-[#0F2027] to-[#2C5364] p-10">
-      <div class="w-full items-center flex justify-center flex-col">
-        <p class="text-3xl text-white">Documentation</p>
-        <!-- Change Description as per your information -->
-        <p
-          class="font-sans text-white text-center w-[300px] lg:w-[700px] md:w-[700px] sm:w-[600px] mt-4"
-        >
-          A game engine for Windows, Linux, and macOS that allows anyone to make DS games with ease!
-        </p>
-      </div>
-    </div>
-    <!-- Document title and description ends here -->
-
-    <div class="w-full flex justify-center p-6 flex-col items-center">
-      <p class="p-5 text-xl">Getting started is easy!</p>
-      <a
-        href="./docs.html"
-        class="text-white h-50 bg-red-600 p-2 w-44 rounded text-center"
-      >
-        Get Started
-      </a>
-    </div>
-
-    <!-- Documentation Cards starts here -->
-    <div class="w-full flex justify-center items-center mt-20 mb-20">
-      <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6"
-      >
-        <div
-          class="max-w-sm rounded shadow bg-white bg-gradient-to-br from-[#302b63] to-[#2c3e50] block -inset-1 -skew-y-3 relative inline-block before:block before:absolute before:-inset-1 before:bg-blue-500 before:h-2 before:rounded"
-        >
-          <div class="flex">
-            <div class="px-6 py-5">
-              <p
-                tabindex="0"
-                class="focus:outline-none text-base font-medium leading-none text-gray-800 dark:text-gray-100 flex items-center"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-2"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"
-                  />
-                </svg>
-                Introduction
-              </p>
-              <p
-                tabindex="0"
-                class="transition ease-in-out focus:outline-none text-base leading-2 text-gray-500 dark:text-gray-400 pt-2 hover:text-gray-100"
-              >
-                Using DS Creator, you can make your own DS games. Developed especially for beginners, 
-				DS Creator makes it easy to learn how to program and create your own games, without 
-				needing to know complicated coding languages.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="max-w-sm rounded shadow bg-white bg-gradient-to-br from-[#302b63] to-[#2c3e50] block -inset-1 -skew-y-3 relative inline-block before:block before:absolute before:-inset-1 before:bg-[#7667A5] before:h-2 before:rounded"
-        >
-          <div class="flex">
-            <div class="px-6 py-5">
-              <p
-                tabindex="0"
-                class="focus:outline-none text-base font-medium leading-none text-gray-800 dark:text-gray-100 flex items-center"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-2"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M2 9.5A3.5 3.5 0 005.5 13H9v2.586l-1.293-1.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L11 15.586V13h2.5a4.5 4.5 0 10-.616-8.958 4.002 4.002 0 10-7.753 1.977A3.5 3.5 0 002 9.5zm9 3.5H9V8a1 1 0 012 0v5z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                Installation
-              </p>
-              <p
-                tabindex="0"
-                class="transition ease-in-out focus:outline-none text-base leading-2 text-gray-500 dark:text-gray-400 pt-2 hover:text-gray-100"
-              >
-                Installing DS Creator is simple. Simply download DS Creator and install devkitPro's libnds. Now you are ready to make DS games!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div
-          class="max-w-sm rounded shadow bg-white bg-gradient-to-br from-[#302b63] to-[#2c3e50] block -inset-1 -skew-y-3 relative inline-block before:block before:absolute before:-inset-1 before:bg-red-500 before:h-2 before:rounded"
-        >
-          <div class="flex">
-            <div class="px-6 py-5">
-              <p
-                tabindex="0"
-                class="focus:outline-none text-base font-medium leading-none text-gray-800 dark:text-gray-100 flex items-center"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-2"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                Creating DS Games
-              </p>
-              <p
-                tabindex="0"
-                class="transition ease-in-out focus:outline-none text-base leading-2 text-gray-500 dark:text-gray-400 pt-2 hover:text-gray-100"
-              >
-                In DS Creator, you use scenes, objects, and events to create your dream game!
-              </p>
-            </div>
+          <div class="text-sm text-color mb-10 f-f-l">
+            <p tabindex="0" class="text-white focus:outline-none">
+              &copy; 2022 Kenyon Bowers. All rights reserved
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <!-- Documentation Cards ends here -->
+  </footer>
+  <!-- Footer ends here -->
+</body>
 
-    <!-- Contribution section starts here -->
-    <!-- This is optional as per your wish -->
-    <!-- You can also change the design -->
-    <section id="contributors">
-      <!-- Replace background image as per your choice -->
-      <div
-        class="container mx-auto m-5 bg-gradient-to-r from-[#009FFF] to-[#ec2F4B] rounded-md"
-      >
-        <div
-          class="flex flex-col justify-center items-center py-12 mx-4 md:mx-6"
-        >
-          <div class="lg:w-1/2 flex flex-col justify-center items-center mb-10">
-            <h1
-              class="text-3xl lg:text-4xl xl:text-5xl font-bold text-center text-white"
-            >
-              Meet our contributors
-            </h1>
-          </div>
-          <div
-            role="list"
-            aria-label="Team members"
-            class="grid grid-flow-row md:grid-flow-col gap-10"
-          >
-            <!--Kenyon-->
-            <div
-              role="listitem"
-              class="relative flex justify-center items-center"
-            >
-              <a href="https://github.com/BowersIndustry" target="_blank">
-                <div
-                  class="relative h-40 bg-white hover:drop-shadow-2xl w-48 flex justify-center rounded-md"
-                >
-                  <img
-                    src="./public/svgs/github.svg"
-                    class="absolute top-16 h-6 w-6"
-                    alt="github.img"
-                  />
-                  <!-- add github username under title -->
-                  <img
-                    src="https://avatars.githubusercontent.com/u/83834271?v=4"
-                    class="absolute w-20 h-20 -top-8 rounded-full"
-                    alt="display avatar"
-                    role="img"
-                    title="Kenyon Bowers"
-                  />
-                  <!-- Enter your github username -->
-                  <p class="absolute top-24 text-center">Kenyon Bowers</p>
-				  <p class="absolute text-sm bottom-6 text-center">Lead Developer</p>
-                </div>
-              </a>
-            </div>
-            <!--tt9-->
-            <div
-              role="listitem"
-              class="relative flex justify-center items-center"
-            >
-              <a href="https://github.com/tt9" target="_blank">
-                <div
-                  class="relative h-40 bg-white hover:drop-shadow-2xl w-48 flex justify-center rounded-md"
-                >
-                  <img
-                    src="./public/svgs/github.svg"
-                    class="absolute top-16 h-6 w-6"
-                    alt="github.img"
-                  />
-                  <!-- add github username under title -->
-                  <img
-                    src="https://avatars.githubusercontent.com/u/4728323?v=4"
-                    class="absolute w-20 h-20 -top-8 rounded-full"
-                    alt="display avatar"
-                    role="img"
-                    title="tt9"
-                  />
-                  <!-- Enter your github username -->
-                  <p class="absolute top-24 text-center">tt9</p>
-				  <p class="absolute text-sm bottom-6 text-center"></p>
-                </div>
-              </a>
-            </div>
-            <!--MakeYourDSGame-->
-            <div
-              role="listitem"
-              class="relative flex justify-center items-center"
-            >
-              <a href="https://github.com/MakeYourDSGame" target="_blank">
-                <div
-                  class="relative h-40 bg-white hover:drop-shadow-2xl w-48 flex justify-center rounded-md"
-                >
-                  <img
-                    src="./public/svgs/github.svg"
-                    class="absolute top-16 h-6 w-6"
-                    alt="github.img"
-                  />
-                  <!-- add github username under title -->
-                  <img
-                    src="https://avatars.githubusercontent.com/u/108240728?v=4"
-                    class="absolute w-20 h-20 -top-8 rounded-full"
-                    alt="display avatar"
-                    role="img"
-                    title="MakeYourDSGame"
-                  />
-                  <!-- Enter your github username -->
-                  <p class="absolute top-24 text-center">MakeYourDSGame</p>
-				  <p class="absolute text-sm bottom-6 text-center"></p>
-                </div>
-              </a>
-            </div>
-            <!--NotImplementedLife-->
-            <div
-              role="listitem"
-              class="relative flex justify-center items-center"
-            >
-              <a href="https://github.com/NotImplementedLife" target="_blank">
-                <div
-                  class="relative h-40 bg-white hover:drop-shadow-2xl w-48 flex justify-center rounded-md"
-                >
-                  <img
-                    src="./public/svgs/github.svg"
-                    class="absolute top-16 h-6 w-6"
-                    alt="github.img"
-                  />
-                  <!-- add github username under title -->
-                  <img
-                    src="https://avatars.githubusercontent.com/u/70803115?v=4"
-                    class="absolute w-20 h-20 -top-8 rounded-full"
-                    alt="display avatar"
-                    role="img"
-                    title="NotImplementedLife"
-                  />
-                  <!-- Enter your github username -->
-                  <p class="absolute top-24 text-center">NotImplementedLife</p>
-				  <p class="absolute text-sm bottom-6 text-center">UI Designer</p>
-                </div>
-              </a>
-            </div>     
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contribution section ends here -->
-
-    <!-- Footer starts here -->
-    <footer>
-      <div class="bg-black h-38 py-1 px-1 mt-5">
-        <div
-          tabindex="0"
-          aria-label="footer"
-          class="focus:outline-none mx-auto container flex flex-col items-center justify-center"
-        >
-          <div class="text-black flex flex-col md:items-center f-f-l pt-0">
-            <div class="my-6 text-base text-color f-f-l">
-              <ul class="md:flex items-center">
-                <li class="md:mr-6 cursor-pointer pt-4 lg:py-0">
-                  <a
-                    href="./index.html"
-                    class="text-white focus:outline-none focus:underline hover:text-gray-200"
-                    >Home
-                  </a>
-                </li>
-                <li class="md:mr-6 cursor-pointer pt-4 lg:py-0">
-                  <a
-                    href="./docs.html"
-                    class="text-white focus:outline-none focus:underline hover:text-gray-200"
-                    >Docs
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="text-sm text-color mb-10 f-f-l">
-              <p tabindex="0" class="text-white focus:outline-none">
-                &copy; 2022 Kenyon Bowers. All rights reserved
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- Footer ends here -->
-  </body>
 </html>
