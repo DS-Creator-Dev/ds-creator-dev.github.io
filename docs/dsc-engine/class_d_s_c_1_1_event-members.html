@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="dsc-logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">DSC Engine
    </div>
@@ -79,10 +80,13 @@ $(function() {
 
 <p>This is the complete list of members for <a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html#a858f1926b5fa85d5129072004e1f0f2b">Event</a>()</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html#aebdffca1935560105f403aeede641a59">operator+=</a>(const EventHandler &amp;e)</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html#a9a6bb9d978d57ea5b1d672ad5020a410">operator-=</a>(const EventHandler &amp;e)</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>add_event</b>(const NonStaticEventHandler&lt; C &gt; e, C *instance) (defined in <a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a>)</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html#a858f1926b5fa85d5129072004e1f0f2b">Event</a>()</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html#aa568d8effca9d47337d2f9c49ceeeed3">operator+=</a>(const StaticEventHandler &amp;e)</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html#aa7b462fde82b0d26255901bb64d2af81">operator-=</a>(const StaticEventHandler &amp;e)</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>remove_event</b>(const NonStaticEventHandler&lt; C &gt; e, C *instance) (defined in <a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a>)</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html#a98706b9279ec21b85d80b403a84a5c2e">trigger</a>(void *sender, void *args) const</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>~Event</b>() (defined in <a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a>)</td><td class="entry"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

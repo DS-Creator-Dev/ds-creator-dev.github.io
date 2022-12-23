@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="dsc-logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">DSC Engine
    </div>
@@ -90,6 +91,10 @@ $(function() {
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_s_c_1_1_hash_map_1_1_entry.html">Entry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_hash_map_1_1iterator.html">iterator</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_d_s_c_1_1_hash_map_1_1_map_entry.html">MapEntry</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -105,9 +110,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a53566cbb03879b44333ab2da27478cdf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_hash_map.html#a53566cbb03879b44333ab2da27478cdf">remove_key</a> (const K &amp;key)</td></tr>
 <tr class="memdesc:a53566cbb03879b44333ab2da27478cdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">removes key from the hash map  <a href="class_d_s_c_1_1_hash_map.html#a53566cbb03879b44333ab2da27478cdf">More...</a><br /></td></tr>
 <tr class="separator:a53566cbb03879b44333ab2da27478cdf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65f232445046f639cfbcb693565f9dd6"><td class="memItemLeft" align="right" valign="top"><a id="a65f232445046f639cfbcb693565f9dd6" name="a65f232445046f639cfbcb693565f9dd6"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
+<tr class="separator:a65f232445046f639cfbcb693565f9dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95f1567a6f4b88b94b2581bfae1a5de8"><td class="memItemLeft" align="right" valign="top"><a id="a95f1567a6f4b88b94b2581bfae1a5de8" name="a95f1567a6f4b88b94b2581bfae1a5de8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>clear</b> ()</td></tr>
+<tr class="separator:a95f1567a6f4b88b94b2581bfae1a5de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae70e08c152aea4ea49eb7a488d331ac5"><td class="memItemLeft" align="right" valign="top"><a id="ae70e08c152aea4ea49eb7a488d331ac5" name="ae70e08c152aea4ea49eb7a488d331ac5"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>HashMap</b> (const <a class="el" href="class_d_s_c_1_1_hash_map.html">HashMap</a>&lt; K, V, H, S &gt; &amp;other)</td></tr>
+<tr class="separator:ae70e08c152aea4ea49eb7a488d331ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a36acbbe1044cc34594281cd2b04da0"><td class="memItemLeft" align="right" valign="top"><a id="a0a36acbbe1044cc34594281cd2b04da0" name="a0a36acbbe1044cc34594281cd2b04da0"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>HashMap</b> (<a class="el" href="class_d_s_c_1_1_hash_map.html">HashMap</a>&lt; K, V, H, S &gt; &amp;&amp;other)</td></tr>
+<tr class="separator:a0a36acbbe1044cc34594281cd2b04da0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc24f640c65e16f361664449ea4e4f6a"><td class="memItemLeft" align="right" valign="top"><a id="acc24f640c65e16f361664449ea4e4f6a" name="acc24f640c65e16f361664449ea4e4f6a"></a>
+<a class="el" href="class_d_s_c_1_1_hash_map.html">HashMap</a>&lt; K, V, H, S &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (const <a class="el" href="class_d_s_c_1_1_hash_map.html">HashMap</a>&lt; K, V, H, S &gt; &amp;other)</td></tr>
+<tr class="separator:acc24f640c65e16f361664449ea4e4f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34a2c5f944caebf805af461f97c7d14b"><td class="memItemLeft" align="right" valign="top"><a id="a34a2c5f944caebf805af461f97c7d14b" name="a34a2c5f944caebf805af461f97c7d14b"></a>
+<a class="el" href="class_d_s_c_1_1_hash_map.html">HashMap</a>&lt; K, V, H, S &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (<a class="el" href="class_d_s_c_1_1_hash_map.html">HashMap</a>&lt; K, V, H, S &gt; &amp;&amp;other)</td></tr>
+<tr class="separator:a34a2c5f944caebf805af461f97c7d14b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab856191447dd37d9428d2d774ed651bf"><td class="memItemLeft" align="right" valign="top"><a id="ab856191447dd37d9428d2d774ed651bf" name="ab856191447dd37d9428d2d774ed651bf"></a>
+<a class="el" href="class_d_s_c_1_1_hash_map_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>begin</b> ()</td></tr>
+<tr class="separator:ab856191447dd37d9428d2d774ed651bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9186ae56801645a554a655d41c60c83d"><td class="memItemLeft" align="right" valign="top"><a id="a9186ae56801645a554a655d41c60c83d" name="a9186ae56801645a554a655d41c60c83d"></a>
+<a class="el" href="class_d_s_c_1_1_hash_map_1_1iterator.html">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><b>end</b> ()</td></tr>
+<tr class="separator:a9186ae56801645a554a655d41c60c83d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename K, typename V, int(*)(const K &amp;) H, int S&gt;<br />
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename K, typename V, int(*)(const K &amp;) H = default_hash&lt;K, 128&gt;, int S = 128&gt;<br />
 class DSC::HashMap&lt; K, V, H, S &gt;</div><p >Generic hash map. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -238,7 +267,7 @@ template&lt;typename K , typename V , int(*)(const K &amp;) H, int S&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/types/<a class="el" href="hash__map_8hpp_source.html">hash_map.hpp</a></li>
+<li>include/DSCEngine/types/<a class="el" href="hash__map_8hpp_source.html">hash_map.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

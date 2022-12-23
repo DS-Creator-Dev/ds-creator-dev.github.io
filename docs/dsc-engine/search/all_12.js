@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['uint_5fbest_5ffit_0',['uint_best_fit',['../templates_8hpp.html#a83e0ff79614c3552ba629c2db3143b8b',1,'DSC']]],
-  ['unload_1',['unload',['../class_d_s_c_1_1_palette_manager.html#a61e1f2323ab1cb89e0f9ffea3f3c2684',1,'DSC::PaletteManager']]],
-  ['unload1_2',['unload1',['../class_d_s_c_1_1_palette_manager.html#af2ab58484a6769567cb6b87b5da0bd7d',1,'DSC::PaletteManager']]],
-  ['unload16_3',['unload16',['../class_d_s_c_1_1_palette_manager.html#a589ebdcdc69b8d58b0958a87f30f612d',1,'DSC::PaletteManager']]]
+  ['take_5fover_0',['take_over',['../class_d_s_c_1_1_bits_array.html#a125ea6c1adf7c8922639ef26dd0e10d8',1,'DSC::BitsArray']]],
+  ['templates_2ehpp_1',['templates.hpp',['../templates_8hpp.html',1,'']]],
+  ['text_2',['text',['../class_d_s_c_1_1_measure.html#a765ec2b7915da6ddbe6967c3d09670e7',1,'DSC::Measure']]],
+  ['tiles_3',['tiles',['../class_d_s_c_1_1_measure.html#a48ca2b986fbf34d52da82af3b936e1bc',1,'DSC::Measure::tiles(int count) const'],['../class_d_s_c_1_1_measure.html#a4b40e2768bdeaf8345b5e49cc289f7c2',1,'DSC::Measure::tiles(int rows_count, int cols_count) const']]],
+  ['tiles_5fcount_4',['tiles_count',['../class_d_s_c_1_1_measure.html#a529404fda191bfd560a1afcdb7ba5f7d',1,'DSC::Measure']]],
+  ['trigger_5',['trigger',['../class_d_s_c_1_1_event.html#a98706b9279ec21b85d80b403a84a5c2e',1,'DSC::Event']]],
+  ['try_5fload_6',['try_load',['../class_d_s_c_1_1_palette_manager.html#aad06d4eb2a1f28bd3e459f92bb120d05',1,'DSC::PaletteManager']]]
 ];

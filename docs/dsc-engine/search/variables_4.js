@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['succeeded_0',['succeeded',['../struct_d_s_c_1_1_palette_allocation_result.html#a32a6961f6a7678a0352cc3f7f6466319',1,'DSC::PaletteAllocationResult']]]
+  ['length_0',['length',['../struct_d_s_c_1_1_palette_allocation_result.html#ac328c423ec76c29d1a315c073bdbf621',1,'DSC::PaletteAllocationResult']]]
 ];

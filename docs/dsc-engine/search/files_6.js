@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['vector_2ehpp_0',['vector.hpp',['../vector_8hpp.html',1,'']]],
-  ['visual_5fnovel_5fscene_2ehpp_1',['visual_novel_scene.hpp',['../visual__novel__scene_8hpp.html',1,'']]]
+  ['scene_2ehpp_0',['scene.hpp',['../scene_8hpp.html',1,'']]],
+  ['sf24_2ehpp_1',['sf24.hpp',['../sf24_8hpp.html',1,'']]],
+  ['stack_2ehpp_2',['stack.hpp',['../stack_8hpp.html',1,'']]]
 ];

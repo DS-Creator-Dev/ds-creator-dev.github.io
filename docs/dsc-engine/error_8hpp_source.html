@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DSC Engine: D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/debug/error.hpp Source File</title>
+<title>DSC Engine: include/DSCEngine/debug/error.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="dsc-logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">DSC Engine
    </div>
@@ -69,7 +70,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_394ff8aee7398e78ab38baed8ef80807.html">Users</a></li><li class="navelem"><a class="el" href="dir_4c01488eab89300ea37a845a86063dbe.html">NotImpLife</a></li><li class="navelem"><a class="el" href="dir_a93fcd782644ed1579df88e06d9de278.html">Projects</a></li><li class="navelem"><a class="el" href="dir_a089ef01e5a80cba15d5446787c04345.html">DS-Creator</a></li><li class="navelem"><a class="el" href="dir_b26f814e773c8f07ec4d3247c5d2b9e2.html">engine</a></li><li class="navelem"><a class="el" href="dir_8f882f87747ddd3076a7c5f50d49de64.html">include</a></li><li class="navelem"><a class="el" href="dir_59cea444c021c16e9728dba13b9bbb8f.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_dcf68f4d320e15fa5c4816a005c718e7.html">debug</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_fa9b8640b3ba23084e3edfd8b1f1119e.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_52272f8f4c6ab88f452caad04ffe4211.html">debug</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -79,21 +80,28 @@ $(function() {
 <div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="log_8hpp.html">DSCEngine/debug/log.hpp</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &lt;nds.h&gt;</span></div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>DSC</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span>... Args&gt; <span class="keywordtype">void</span> fatal(<span class="keyword">const</span> <span class="keywordtype">char</span>* message, Args... args)</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    {       </div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>        <a class="code hl_function" href="log_8hpp.html#a282c7104782e30a4a9c78a2baaf06f04">DSC::Debug::error</a>(message, args...);</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <a class="code hl_function" href="log_8hpp.html#ab8a93ebb1fbb8d6ed5b75511b2bd362c">DSC::Debug::log</a>(<span class="stringliteral">&quot;The execution stopped&quot;</span>);</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <span class="keywordflow">while</span>(1)</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        {</div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>            swiWaitForVBlank();</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        }</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    }</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>}</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;DSCEngine/testmod.hpp&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span>DSC</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    <span class="keywordtype">void</span> fatal_freeze(<span class="keyword">const</span> <span class="keywordtype">char</span>* message, ...);</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    </div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keyword">template</span>&lt;<span class="keyword">typename</span>... Args&gt; <span class="keywordtype">void</span> fatal(<span class="keyword">const</span> <span class="keywordtype">char</span>* message, Args... args)</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    {       </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>        <a class="code hl_function" href="log_8hpp.html#a282c7104782e30a4a9c78a2baaf06f04">DSC::Debug::error</a>(message, args...);</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>        <a class="code hl_function" href="log_8hpp.html#ab8a93ebb1fbb8d6ed5b75511b2bd362c">DSC::Debug::log</a>(<span class="stringliteral">&quot;The execution stopped&quot;</span>);</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>        </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>        <span class="keywordflow">if</span>(!IS_TESTMOD)</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        {           </div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            fatal_freeze(message, args...);         </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        }       </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>        <span class="keywordflow">else</span></div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        {</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>            testmod_fatal_raise();</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>            testmod_return();</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        }       </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    }</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>}</div>
 <div class="ttc" id="alog_8hpp_html"><div class="ttname"><a href="log_8hpp.html">log.hpp</a></div><div class="ttdoc">send debug messages to the emulator</div></div>
 <div class="ttc" id="alog_8hpp_html_a282c7104782e30a4a9c78a2baaf06f04"><div class="ttname"><a href="log_8hpp.html#a282c7104782e30a4a9c78a2baaf06f04">DSC::Debug::error</a></div><div class="ttdeci">void error(const char *message,...)</div><div class="ttdoc">Sends an error message to the emulator.</div></div>
 <div class="ttc" id="alog_8hpp_html_ab8a93ebb1fbb8d6ed5b75511b2bd362c"><div class="ttname"><a href="log_8hpp.html#ab8a93ebb1fbb8d6ed5b75511b2bd362c">DSC::Debug::log</a></div><div class="ttdeci">void log(const char *message,...)</div><div class="ttdoc">Sends a log message to the emulator.</div></div>

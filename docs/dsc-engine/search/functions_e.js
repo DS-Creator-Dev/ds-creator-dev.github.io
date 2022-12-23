@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['readonlydata_0',['ReadOnlyData',['../class_d_s_c_1_1_read_only_data.html#ac091f868669ff29e0d0c821e8dd8d0fc',1,'DSC::ReadOnlyData']]],
-  ['release_1',['release',['../class_d_s_c_1_1_allocator.html#a8720578227bfc11f961b1494b314a9e2',1,'DSC::Allocator']]],
-  ['remove_2',['remove',['../class_d_s_c_1_1_vector.html#a60f02e66a88fa9b3e67c8d571ad1a6da',1,'DSC::Vector']]],
-  ['remove_5fat_3',['remove_at',['../class_d_s_c_1_1_vector.html#ac24ed9e07be70cc643dcbc9d3102daef',1,'DSC::Vector']]],
-  ['remove_5fkey_4',['remove_key',['../class_d_s_c_1_1_hash_map.html#a53566cbb03879b44333ab2da27478cdf',1,'DSC::HashMap']]],
-  ['reserve_5',['reserve',['../class_d_s_c_1_1_allocator.html#a3f93be45bc2cadbabeeb5cc3474e669f',1,'DSC::Allocator']]],
-  ['reserve1_6',['reserve1',['../class_d_s_c_1_1_palette_manager.html#afb1dbfc8aa80e2a980c7d731755140a7',1,'DSC::PaletteManager']]],
-  ['reserve16_7',['reserve16',['../class_d_s_c_1_1_palette_manager.html#ad299bfb8f73829807c5536afed446b5e',1,'DSC::PaletteManager']]],
-  ['reset_8',['reset',['../class_d_s_c_1_1_vector.html#a40f4ca7b4d3427be65fce659a1424d7f',1,'DSC::Vector']]],
-  ['resize_9',['resize',['../class_d_s_c_1_1_vector.html#a826d65f201a92ada0a6952fdceae652c',1,'DSC::Vector']]]
+  ['objallocator_0',['ObjAllocator',['../class_d_s_c_1_1_obj_allocator.html#a561092a3512b10d7bc1f7d8e25ac05ae',1,'DSC::ObjAllocator']]],
+  ['objframe_1',['ObjFrame',['../class_d_s_c_1_1_obj_frame.html#ae40e69be6354d8e53589ab1b429212c7',1,'DSC::ObjFrame']]],
+  ['operator_20int_2',['operator int',['../class_d_s_c_1_1sf24.html#ad034aa7d65dbecec8ab86e0954131a5b',1,'DSC::sf24']]],
+  ['operator_20short_3',['operator short',['../class_d_s_c_1_1sf24.html#a42c00cd91a81600bf6b93e47c5323b4c',1,'DSC::sf24']]],
+  ['operator_2b_3d_4',['operator+=',['../class_d_s_c_1_1_event.html#aa568d8effca9d47337d2f9c49ceeeed3',1,'DSC::Event']]],
+  ['operator_2d_3d_5',['operator-=',['../class_d_s_c_1_1_event.html#aa7b462fde82b0d26255901bb64d2af81',1,'DSC::Event']]],
+  ['operator_5b_5d_6',['operator[]',['../class_d_s_c_1_1_bits_array.html#a0fdfd67214f1ce709eee09804d9ad992',1,'DSC::BitsArray::operator[](int index) const'],['../class_d_s_c_1_1_bits_array.html#ad15f4f1297f016eef10aaa4cdeb21e8e',1,'DSC::BitsArray::operator[](int index)'],['../class_d_s_c_1_1_hash_map.html#a44625dbddec069a727880a48ab61ba8b',1,'DSC::HashMap::operator[](const K &amp;key)'],['../class_d_s_c_1_1_hash_map.html#a1f2a980479144b297c477bb78e395a7c',1,'DSC::HashMap::operator[](const K &amp;key) const'],['../class_d_s_c_1_1_vector.html#ae9b574ddf8ad58f19cec1b046ea8c464',1,'DSC::Vector::operator[](int index)'],['../class_d_s_c_1_1_vector.html#ac6456c1601dfd11c59a9d934c361591b',1,'DSC::Vector::operator[](int index) const']]]
 ];

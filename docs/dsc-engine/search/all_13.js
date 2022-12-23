@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['value_0',['value',['../class_d_s_c_1_1_measure_value.html#a6e819c1897221641235928676366bcdd',1,'DSC::MeasureValue']]],
-  ['vector_1',['Vector',['../class_d_s_c_1_1_vector.html',1,'DSC']]],
-  ['vector_2ehpp_2',['vector.hpp',['../vector_8hpp.html',1,'']]],
-  ['vector_3c_20dsc_3a_3ahashmap_3a_3aentry_20_3e_3',['Vector&lt; DSC::HashMap::Entry &gt;',['../class_d_s_c_1_1_vector.html',1,'DSC']]],
-  ['vector_3c_20eventhandler_20_3e_4',['Vector&lt; EventHandler &gt;',['../class_d_s_c_1_1_vector.html',1,'DSC']]],
-  ['visual_5fnovel_5fscene_2ehpp_5',['visual_novel_scene.hpp',['../visual__novel__scene_8hpp.html',1,'']]],
-  ['visualnovelscene_6',['VisualNovelScene',['../class_d_s_c_1_1_scene_templates_1_1_visual_novel_scene.html',1,'DSC::SceneTemplates']]]
+  ['uint_5fbest_5ffit_0',['uint_best_fit',['../templates_8hpp.html#a83e0ff79614c3552ba629c2db3143b8b',1,'DSC']]],
+  ['unload_1',['unload',['../class_d_s_c_1_1_palette_manager.html#a61e1f2323ab1cb89e0f9ffea3f3c2684',1,'DSC::PaletteManager']]],
+  ['unload1_2',['unload1',['../class_d_s_c_1_1_palette_manager.html#af2ab58484a6769567cb6b87b5da0bd7d',1,'DSC::PaletteManager']]],
+  ['unload16_3',['unload16',['../class_d_s_c_1_1_palette_manager.html#a589ebdcdc69b8d58b0958a87f30f612d',1,'DSC::PaletteManager']]],
+  ['unset_5fall_4',['unset_all',['../class_d_s_c_1_1_bits_array.html#a7fc592cde5e0c4b7bd531023e5af3218',1,'DSC::BitsArray']]],
+  ['update_5fposition_5',['update_position',['../class_d_s_c_1_1_sprite.html#aa04a84090d58c40af18c206921e85904',1,'DSC::Sprite']]],
+  ['update_5fvisual_6',['update_visual',['../class_d_s_c_1_1_sprite.html#a37b8af1e044a03c3676e05e96e262391',1,'DSC::Sprite']]]
 ];

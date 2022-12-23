@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DSC Engine: D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/events/event.hpp File Reference</title>
+<title>DSC Engine: include/DSCEngine/events/event.hpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="dsc-logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">DSC Engine
    </div>
@@ -69,7 +70,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_394ff8aee7398e78ab38baed8ef80807.html">Users</a></li><li class="navelem"><a class="el" href="dir_4c01488eab89300ea37a845a86063dbe.html">NotImpLife</a></li><li class="navelem"><a class="el" href="dir_a93fcd782644ed1579df88e06d9de278.html">Projects</a></li><li class="navelem"><a class="el" href="dir_a089ef01e5a80cba15d5446787c04345.html">DS-Creator</a></li><li class="navelem"><a class="el" href="dir_b26f814e773c8f07ec4d3247c5d2b9e2.html">engine</a></li><li class="navelem"><a class="el" href="dir_8f882f87747ddd3076a7c5f50d49de64.html">include</a></li><li class="navelem"><a class="el" href="dir_59cea444c021c16e9728dba13b9bbb8f.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_2d37af6d72a7fb8ddef53e0a12dc8050.html">events</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_fa9b8640b3ba23084e3edfd8b1f1119e.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_70e2f1b2c8907447c78bc32c8bfd24bc.html">events</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -80,35 +81,82 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="vector_8hpp_source.html">DSCEngine/types/vector.hpp</a>&quot;</code><br />
+<code>#include &quot;DSCEngine/debug/assert.hpp&quot;</code><br />
 </div>
 <p><a href="event_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_event_handler_container.html">DSC::EventHandlerContainer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_static_event_handler_container.html">DSC::StaticEventHandlerContainer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_non_static_event_handler_container.html">DSC::NonStaticEventHandlerContainer&lt; C &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_d_s_c_1_1_event.html">DSC::Event</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class responsible with event registration and execution.  <a href="class_d_s_c_1_1_event.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:a2ce9b780bf6fe05267718fb21bb175e7"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8hpp.html#a2ce9b780bf6fe05267718fb21bb175e7">DSC::EventHandler</a>) (void *, void *)</td></tr>
-<tr class="memdesc:a2ce9b780bf6fe05267718fb21bb175e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function type to be execute when event fires.  <a href="event_8hpp.html#a2ce9b780bf6fe05267718fb21bb175e7">More...</a><br /></td></tr>
-<tr class="separator:a2ce9b780bf6fe05267718fb21bb175e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf045790be1f927ecdf2a00ccb17d16"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="event_8hpp.html#a1bf045790be1f927ecdf2a00ccb17d16">DSC::StaticEventHandler</a>) (void *sender, void *args)</td></tr>
+<tr class="memdesc:a1bf045790be1f927ecdf2a00ccb17d16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function type to be executed when event fires <br  />
+  <a href="event_8hpp.html#a1bf045790be1f927ecdf2a00ccb17d16">More...</a><br /></td></tr>
+<tr class="separator:a1bf045790be1f927ecdf2a00ccb17d16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80742e28ab8af2b8718cef80fbbdb778"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a80742e28ab8af2b8718cef80fbbdb778"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="event_8hpp.html#a80742e28ab8af2b8718cef80fbbdb778">DSC::NonStaticEventHandler</a> = void(C::*)(void *sender, void *args)</td></tr>
+<tr class="memdesc:a80742e28ab8af2b8718cef80fbbdb778"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class method type to be executed when event fires.  <a href="event_8hpp.html#a80742e28ab8af2b8718cef80fbbdb778">More...</a><br /></td></tr>
+<tr class="separator:a80742e28ab8af2b8718cef80fbbdb778"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a2ce9b780bf6fe05267718fb21bb175e7" name="a2ce9b780bf6fe05267718fb21bb175e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ce9b780bf6fe05267718fb21bb175e7">&#9670;&#160;</a></span>EventHandler</h2>
+<a id="a80742e28ab8af2b8718cef80fbbdb778" name="a80742e28ab8af2b8718cef80fbbdb778"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80742e28ab8af2b8718cef80fbbdb778">&#9670;&#160;</a></span>NonStaticEventHandler</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="event_8hpp.html#a80742e28ab8af2b8718cef80fbbdb778">DSC::NonStaticEventHandler</a> = typedef void (C::*)(void* sender, void* args)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Class method type to be executed when event fires. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>instance that triggered the event </td></tr>
+    <tr><td class="paramname">args</td><td>event arguments <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1bf045790be1f927ecdf2a00ccb17d16" name="a1bf045790be1f927ecdf2a00ccb17d16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf045790be1f927ecdf2a00ccb17d16">&#9670;&#160;</a></span>StaticEventHandler</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* DSC::EventHandler) (void *, void *)</td>
+          <td class="memname">typedef void(* DSC::StaticEventHandler) (void *sender, void *args)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Function type to be execute when event fires. </p>
+<p>Function type to be executed when event fires <br  />
+ </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>instance that triggered the event </td></tr>
+    <tr><td class="paramname">args</td><td>event arguments <br  />
+ </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

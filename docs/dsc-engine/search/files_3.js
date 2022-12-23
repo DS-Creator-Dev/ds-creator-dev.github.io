@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['palette_5fmanager_2ehpp_0',['palette_manager.hpp',['../palette__manager_8hpp.html',1,'']]]
+  ['localizable_2ehpp_0',['localizable.hpp',['../localizable_8hpp.html',1,'']]],
+  ['log_2ehpp_1',['log.hpp',['../log_8hpp.html',1,'']]]
 ];

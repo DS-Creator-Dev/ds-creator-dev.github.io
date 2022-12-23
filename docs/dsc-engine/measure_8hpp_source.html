@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>DSC Engine: D:/Users/NotImpLife/Projects/DS-Creator/engine/include/DSCEngine/video/measure.hpp Source File</title>
+<title>DSC Engine: include/DSCEngine/video/measure.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -20,6 +20,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="dsc-logo.png"/></td>
   <td id="projectalign">
    <div id="projectname">DSC Engine
    </div>
@@ -69,7 +70,7 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_275089585c7fc1b5fd5d7d42c69cb1da.html">D:</a></li><li class="navelem"><a class="el" href="dir_394ff8aee7398e78ab38baed8ef80807.html">Users</a></li><li class="navelem"><a class="el" href="dir_4c01488eab89300ea37a845a86063dbe.html">NotImpLife</a></li><li class="navelem"><a class="el" href="dir_a93fcd782644ed1579df88e06d9de278.html">Projects</a></li><li class="navelem"><a class="el" href="dir_a089ef01e5a80cba15d5446787c04345.html">DS-Creator</a></li><li class="navelem"><a class="el" href="dir_b26f814e773c8f07ec4d3247c5d2b9e2.html">engine</a></li><li class="navelem"><a class="el" href="dir_8f882f87747ddd3076a7c5f50d49de64.html">include</a></li><li class="navelem"><a class="el" href="dir_59cea444c021c16e9728dba13b9bbb8f.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_939255d78540b7daed46f7f7d4c444c8.html">video</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_fa9b8640b3ba23084e3edfd8b1f1119e.html">DSCEngine</a></li><li class="navelem"><a class="el" href="dir_fff527a2c716effb0e73d77933f84a0f.html">video</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -84,7 +85,7 @@ $(function() {
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>    {</div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    <span class="keyword">private</span>:</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>        <span class="keywordtype">int</span> raw_value;      </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keywordtype">bool</span> conversion_fit = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>        <span class="keywordtype">bool</span> conversion_fit = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>        <span class="keywordtype">int</span> block_cnt = 1;</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    <span class="keyword">public</span>:     </div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure_value.html#a0ad35207eb1921d99e17082cf401d8d2">   17</a></span>        <a class="code hl_function" href="class_d_s_c_1_1_measure_value.html#a0ad35207eb1921d99e17082cf401d8d2">MeasureValue</a>(<span class="keywordtype">int</span> raw = 0);</div>
@@ -118,28 +119,32 @@ $(function() {
 <div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>        </div>
 <div class="line"><a id="l00076" name="l00076"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a84aa70d9f92d34b17eca58bce2f06cac">   76</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure.html">Measure</a>&amp; <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a84aa70d9f92d34b17eca58bce2f06cac">_16bpp</a>();</div>
 <div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span>        </div>
-<div class="line"><a id="l00083" name="l00083"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#aba6bc11c016844d2205b3d66b6eb6ba9">   83</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure.html">Measure</a>&amp; <a class="code hl_function" href="class_d_s_c_1_1_measure.html#aba6bc11c016844d2205b3d66b6eb6ba9">metatile</a>(<span class="keywordtype">int</span> tw, <span class="keywordtype">int</span> th);</div>
-<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span>        </div>
-<div class="line"><a id="l00087" name="l00087"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a765ec2b7915da6ddbe6967c3d09670e7">   87</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure.html">Measure</a>&amp; <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a765ec2b7915da6ddbe6967c3d09670e7">text</a>();</div>
-<div class="line"><a id="l00088" name="l00088"></a><span class="lineno">   88</span>        </div>
-<div class="line"><a id="l00091" name="l00091"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#ac42e7ed3b7c584d716b65614e1ea3b85">   91</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure.html">Measure</a>&amp; <a class="code hl_function" href="class_d_s_c_1_1_measure.html#ac42e7ed3b7c584d716b65614e1ea3b85">bitmap</a>();</div>
-<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>        </div>
-<div class="line"><a id="l00100" name="l00100"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a48ca2b986fbf34d52da82af3b936e1bc">  100</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure_value.html">MeasureValue</a> <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a48ca2b986fbf34d52da82af3b936e1bc">tiles</a>(<span class="keywordtype">int</span> count) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span>            </div>
-<div class="line"><a id="l00110" name="l00110"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a4b40e2768bdeaf8345b5e49cc289f7c2">  110</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure_value.html">MeasureValue</a> <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a4b40e2768bdeaf8345b5e49cc289f7c2">tiles</a>(<span class="keywordtype">int</span> rows_count, <span class="keywordtype">int</span> cols_count) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span>        </div>
-<div class="line"><a id="l00117" name="l00117"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#ab418a778286590de619fbe4ef6481403">  117</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure_value.html">MeasureValue</a> <a class="code hl_function" href="class_d_s_c_1_1_measure.html#ab418a778286590de619fbe4ef6481403">bitmap</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00118" name="l00118"></a><span class="lineno">  118</span>        </div>
-<div class="line"><a id="l00123" name="l00123"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a529404fda191bfd560a1afcdb7ba5f7d">  123</a></span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a529404fda191bfd560a1afcdb7ba5f7d">tiles_count</a>(<span class="keywordtype">int</span> size) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00124" name="l00124"></a><span class="lineno">  124</span>        </div>
-<div class="line"><a id="l00125" name="l00125"></a><span class="lineno">  125</span>        <a class="code hl_class" href="class_d_s_c_1_1_measure_value.html">MeasureValue</a> map_size(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height) <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>        </div>
-<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>        <span class="keywordtype">int</span> bytes_per_map_entry() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>        </div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#ad62ca659aa42abbd0dceb9979d0437f4">   81</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure.html">Measure</a>&amp; <a class="code hl_function" href="class_d_s_c_1_1_measure.html#ad62ca659aa42abbd0dceb9979d0437f4">bpp</a>(<span class="keywordtype">int</span> color_depth);</div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>        </div>
+<div class="line"><a id="l00088" name="l00088"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#aba6bc11c016844d2205b3d66b6eb6ba9">   88</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure.html">Measure</a>&amp; <a class="code hl_function" href="class_d_s_c_1_1_measure.html#aba6bc11c016844d2205b3d66b6eb6ba9">metatile</a>(<span class="keywordtype">int</span> tw, <span class="keywordtype">int</span> th);</div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno">   89</span>        </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a765ec2b7915da6ddbe6967c3d09670e7">   92</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure.html">Measure</a>&amp; <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a765ec2b7915da6ddbe6967c3d09670e7">text</a>();</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>        </div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#ac42e7ed3b7c584d716b65614e1ea3b85">   96</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure.html">Measure</a>&amp; <a class="code hl_function" href="class_d_s_c_1_1_measure.html#ac42e7ed3b7c584d716b65614e1ea3b85">bitmap</a>();</div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>        </div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a48ca2b986fbf34d52da82af3b936e1bc">  105</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure_value.html">MeasureValue</a> <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a48ca2b986fbf34d52da82af3b936e1bc">tiles</a>(<span class="keywordtype">int</span> count) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>            </div>
+<div class="line"><a id="l00115" name="l00115"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a4b40e2768bdeaf8345b5e49cc289f7c2">  115</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure_value.html">MeasureValue</a> <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a4b40e2768bdeaf8345b5e49cc289f7c2">tiles</a>(<span class="keywordtype">int</span> rows_count, <span class="keywordtype">int</span> cols_count) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>        </div>
+<div class="line"><a id="l00122" name="l00122"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#ab418a778286590de619fbe4ef6481403">  122</a></span>        <a class="code hl_class" href="class_d_s_c_1_1_measure_value.html">MeasureValue</a> <a class="code hl_function" href="class_d_s_c_1_1_measure.html#ab418a778286590de619fbe4ef6481403">bitmap</a>(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00123" name="l00123"></a><span class="lineno">  123</span>        </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno"><a class="line" href="class_d_s_c_1_1_measure.html#a529404fda191bfd560a1afcdb7ba5f7d">  128</a></span>        <span class="keywordtype">int</span> <a class="code hl_function" href="class_d_s_c_1_1_measure.html#a529404fda191bfd560a1afcdb7ba5f7d">tiles_count</a>(<span class="keywordtype">int</span> size) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span>        </div>
-<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        </div>
-<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    };</div>
-<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>}</div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span>        <a class="code hl_class" href="class_d_s_c_1_1_measure_value.html">MeasureValue</a> map_size(<span class="keywordtype">int</span> width, <span class="keywordtype">int</span> height) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>        </div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>        <span class="keywordtype">int</span> bytes_per_map_entry() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>        </div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span>        <span class="keywordtype">int</span> tile_id(<span class="keywordtype">void</span>* address, <span class="keywordtype">void</span>* base, <span class="keywordtype">int</span> mapping_step) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00135" name="l00135"></a><span class="lineno">  135</span>        </div>
+<div class="line"><a id="l00136" name="l00136"></a><span class="lineno">  136</span>        </div>
+<div class="line"><a id="l00137" name="l00137"></a><span class="lineno">  137</span>        </div>
+<div class="line"><a id="l00138" name="l00138"></a><span class="lineno">  138</span>    };</div>
+<div class="line"><a id="l00139" name="l00139"></a><span class="lineno">  139</span>}</div>
 <div class="ttc" id="aclass_d_s_c_1_1_measure_html"><div class="ttname"><a href="class_d_s_c_1_1_measure.html">DSC::Measure</a></div><div class="ttdoc">Helper class to deal with graphics size computations.</div><div class="ttdef"><b>Definition:</b> measure.hpp:55</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_measure_html_a34e9cb8c41d9790d7ac69ecff483df98"><div class="ttname"><a href="class_d_s_c_1_1_measure.html#a34e9cb8c41d9790d7ac69ecff483df98">DSC::Measure::_8bpp</a></div><div class="ttdeci">Measure &amp; _8bpp()</div><div class="ttdoc">chain function to set color depth to 8 bpp</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_measure_html_a48ca2b986fbf34d52da82af3b936e1bc"><div class="ttname"><a href="class_d_s_c_1_1_measure.html#a48ca2b986fbf34d52da82af3b936e1bc">DSC::Measure::tiles</a></div><div class="ttdeci">MeasureValue tiles(int count) const</div><div class="ttdoc">computes the size of a number of tiles given the measure settings</div></div>
@@ -150,6 +155,7 @@ $(function() {
 <div class="ttc" id="aclass_d_s_c_1_1_measure_html_ab418a778286590de619fbe4ef6481403"><div class="ttname"><a href="class_d_s_c_1_1_measure.html#ab418a778286590de619fbe4ef6481403">DSC::Measure::bitmap</a></div><div class="ttdeci">MeasureValue bitmap(int width, int height) const</div><div class="ttdoc">computes the size of a bitmap given the measure settings</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_measure_html_aba6bc11c016844d2205b3d66b6eb6ba9"><div class="ttname"><a href="class_d_s_c_1_1_measure.html#aba6bc11c016844d2205b3d66b6eb6ba9">DSC::Measure::metatile</a></div><div class="ttdeci">Measure &amp; metatile(int tw, int th)</div><div class="ttdoc">chain function to set meta tile size</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_measure_html_ac42e7ed3b7c584d716b65614e1ea3b85"><div class="ttname"><a href="class_d_s_c_1_1_measure.html#ac42e7ed3b7c584d716b65614e1ea3b85">DSC::Measure::bitmap</a></div><div class="ttdeci">Measure &amp; bitmap()</div><div class="ttdoc">chain function to set map type as bitmap</div></div>
+<div class="ttc" id="aclass_d_s_c_1_1_measure_html_ad62ca659aa42abbd0dceb9979d0437f4"><div class="ttname"><a href="class_d_s_c_1_1_measure.html#ad62ca659aa42abbd0dceb9979d0437f4">DSC::Measure::bpp</a></div><div class="ttdeci">Measure &amp; bpp(int color_depth)</div><div class="ttdoc">alternative to _4bpp(), _8bpp() or _16bpp() with dynamic parameter</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_measure_html_ae4c45c3774ffb3622a0e75b674560f26"><div class="ttname"><a href="class_d_s_c_1_1_measure.html#ae4c45c3774ffb3622a0e75b674560f26">DSC::Measure::_4bpp</a></div><div class="ttdeci">Measure &amp; _4bpp()</div><div class="ttdoc">chain function to set color depth to 4 bpp</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_measure_value_html"><div class="ttname"><a href="class_d_s_c_1_1_measure_value.html">DSC::MeasureValue</a></div><div class="ttdoc">Wrapper around int to convert units.</div><div class="ttdef"><b>Definition:</b> measure.hpp:8</div></div>
 <div class="ttc" id="aclass_d_s_c_1_1_measure_value_html_a03b60259954237cd305b52cf1be651d1"><div class="ttname"><a href="class_d_s_c_1_1_measure_value.html#a03b60259954237cd305b52cf1be651d1">DSC::MeasureValue::kilobytes</a></div><div class="ttdeci">int kilobytes() const</div><div class="ttdoc">converts the value of the measure in kilobytes. Roughly equivalent to MeasureValue::blocks(1024).</div></div>

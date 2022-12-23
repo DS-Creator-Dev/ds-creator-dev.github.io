@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['length_0',['length',['../struct_d_s_c_1_1_palette_allocation_result.html#ac328c423ec76c29d1a315c073bdbf621',1,'DSC::PaletteAllocationResult']]],
-  ['log_1',['log',['../log_8hpp.html#ab8a93ebb1fbb8d6ed5b75511b2bd362c',1,'DSC::Debug']]],
-  ['log_2ehpp_2',['log.hpp',['../log_8hpp.html',1,'']]]
+  ['key_5fdown_0',['key_down',['../class_d_s_c_1_1_scene.html#a3bd251151941a7e3aab220fadcfe97be',1,'DSC::Scene']]],
+  ['key_5fheld_1',['key_held',['../class_d_s_c_1_1_scene.html#a218d319c38ccf707c996f88f6d489ff3',1,'DSC::Scene']]],
+  ['key_5fup_2',['key_up',['../class_d_s_c_1_1_scene.html#a8af42d4cd8685cd651f38d02dc375398',1,'DSC::Scene']]],
+  ['kilobytes_3',['kilobytes',['../class_d_s_c_1_1_measure_value.html#a03b60259954237cd305b52cf1be651d1',1,'DSC::MeasureValue']]]
 ];
